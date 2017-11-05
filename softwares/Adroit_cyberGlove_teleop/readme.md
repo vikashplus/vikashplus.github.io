@@ -7,7 +7,7 @@
 # V1
 ```Release date: Comming soon```
 ### Changelist
-1) 
+1) Logs being dumped in Mujoco_index
 
 # Getting started 
 1) Download and unzip the latest version of the software
