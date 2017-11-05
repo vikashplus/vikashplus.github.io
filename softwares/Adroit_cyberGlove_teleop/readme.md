@@ -9,3 +9,8 @@
 ### Changelist
 1) 
 
+# Getting started 
+1) Download and unzip the latest version of the software
+2) Double click runDemo.bat and follow the instructions 
+3) Read and edit config files as per your need
+
