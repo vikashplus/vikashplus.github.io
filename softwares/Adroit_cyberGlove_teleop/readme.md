@@ -3,6 +3,8 @@
 ### Changelist
 1) First attempt at releasing the software 
 2) The hand model is still mujoco1.31
+### Post-release modifications
+1) Changing the wrist_nullCmd value. Null values were mistakenly quite high. 
 
 # V1
 ```Release date: Comming soon```
