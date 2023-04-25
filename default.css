@@ -101,6 +101,11 @@ td h3 {
 	padding: 25px 7px 0px 7px;
 }
 
+#logo h2 {
+	float: right;
+	padding: 25px 7px 0px 7px;
+}
+
 #logo p {
 	float: right;
 	padding-top: 39px;
@@ -223,7 +228,7 @@ td h3 {
 }
 
 .entry {
-	
+
 	width: 700px;
 }
 
@@ -363,7 +368,7 @@ margin-right: auto
 	border: 1px solid #AAAAAA;
 }
 
-#video 
+#video
 {
 	margin: 0px 0px 0px 10px;
 	border: 0px solid #220000;
@@ -380,7 +385,7 @@ margin-right: auto
 }
 
 #video .caption
-{   
+{
     float: left;
     display: inline-block;
 	text-align: center;
