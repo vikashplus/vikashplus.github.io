@@ -1,9 +1,9 @@
 function change() {
     var modelCbs = document.querySelectorAll(".models input[type='checkbox']");
-    var processorCbs = document.querySelectorAll(".processors input[type='checkbox']");
+    var processorCbs = document.querySelectorAll(".categories input[type='checkbox']");
     var filters = {
       models: getClassOfCheckedCheckboxes(modelCbs),
-      processors: getClassOfCheckedCheckboxes(processorCbs)
+      categories: getClassOfCheckedCheckboxes(processorCbs)
     };
   
     filterResults(filters);
@@ -54,11 +54,11 @@ function change() {
         }
       }
   
-      if (filters.processors.length > 0) {
+      if (filters.categories.length > 0) {
         var isHidden = true;
   
-        for (var j = 0; j < filters.processors.length; j++) {
-          var filter = filters.processors[j];
+        for (var j = 0; j < filters.categories.length; j++) {
+          var filter = filters.categories[j];
   
           if (el.classList.contains(filter)) {
             isHidden = false;
