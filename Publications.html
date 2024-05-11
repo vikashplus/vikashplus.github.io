@@ -3,687 +3,1433 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Vikash Kumar: Senior Research Scientist in Robotics and Embodied AI</title>
-	<meta name="keywords" content="Robotics, Embodied AI, Hand-Manipulation, ADROIT, Hand, Machine Learning"/>
-	<meta name="description" content="Senior Research Scientist in Robotics and Embodied Artificial Intelligence, with specialization in dexterous hand manipulation. He is broadly interested in developing artificial agents that are cheap, portable and capable of exhibiting complex behaviors in unknown situations. His current focus is towards solving contact rich dexterous manipulation with free objects. He finished his PhD under Prof. Emanuel Todorov and Prof. Sergey Levine at University of Washington where he developed ADROIT - a dexterous manipulation platform."/>
-	<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
-	<link rel="shortcut icon" href="images/icon.ico">
-	<!-- Reference to html5gallery.js -->
-	<script type="text/javascript" src="html5gallery/jquery.js"></script>
-	<script type="text/javascript" src="html5gallery/html5lightbox.js"></script>
-	<script type="text/javascript" src="html5gallery/html5gallery.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Vikash Kumar: Senior Research Scientist in Robotics and Embodied AI</title>
+    <meta name="keywords" content="Robotics, Embodied AI, Hand-Manipulation, ADROIT, Hand, Machine Learning" />
+    <meta name="description"
+        content="Senior Research Scientist in Robotics and Embodied Artificial Intelligence, with specialization in dexterous hand manipulation. He is broadly interested in developing artificial agents that are cheap, portable and capable of exhibiting complex behaviors in unknown situations. His current focus is towards solving contact rich dexterous manipulation with free objects. He finished his PhD under Prof. Emanuel Todorov and Prof. Sergey Levine at University of Washington where he developed ADROIT - a dexterous manipulation platform." />
+    <link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="images/icon.ico">
+    <!-- Reference to html5gallery.js -->
+    <script type="text/javascript" src="html5gallery/jquery.js"></script>
+    <script type="text/javascript" src="html5gallery/html5lightbox.js"></script>
+    <script type="text/javascript" src="html5gallery/html5gallery.js"></script>
+    <script src="Publications.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44241506-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-44241506-1');
+    </script>
+    <style>
+        .checkbox {
+            display: inline-block;
+            margin-right: 10px;
+        }
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44241506-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-44241506-1');
-	</script>
+        .checkbox label::before {
+            content: "";
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: 10px;
+            position: absolute;
+            left: 0;
+            bottom: 1px;
+            background-color: #fff;
+            border: 1px solid #cacece;
+            border-radius: 3px;
+        }
 
+        .checkbox label::after {
+            content: "";
+            display: none;
+            width: 10px;
+            height: 5px;
+            position: absolute;
+            top: 1px;
+            left: 4px;
+            border: 3px solid #000;
+            border-top: none;
+            border-right: none;
+            transform: rotate(-45deg);
+        }
+
+        .checkbox input[type="checkbox"] {
+                display: inline-block;
+                cursor: pointer;
+                position: relative;
+                padding-left: 25px;
+                margin-bottom: 20px;
+                font-size: 13px;
+            }
+    </style>
 </head>
 
 <body>
-<!-- start header -->
-<div id="logo">
-	<h1>
-		<a href="index.html">Vikash Kumar &nbsp; </a>
-		<a href="https://twitter.com/vikashplus"><img src="images/twitter-50.png" height="20" alt="Twitter"></a>
-		<a href="https://www.youtube.com/@vikashplus"><img src="images/youtube-50.png" height="20" alt="Twitter"></a>
-		<a href="https://github.com/vikashplus"><img src="images/github-50.png" height="20" alt="Github"></a>
-		<a href="https://scholar.google.com/citations?user=lS96SqoAAAAJ"><img src="images/scholar-30.png" height="20" alt="Google Scholar"></a>
-	</h1>
-</div>
-<div id="menu">
-	<ul>
-		<li><a style="border-left:0px" href="index.html">Highlights</a></li>
-		<li><a href="news.html">Impacts</a></li>
-		<li class="current_page_item"><a href="Publications.html">Publications</a></li>
-		<li><a href="Thesis.html">Thesis</a></li>
-		<li><a href="Resume.html">Resume</a></li>
-		<li><a href="AboutMe.html">About me</a></li>
-	</ul>
-</div>
-<!-- end header -->
-
-<!-- start page -->
-<div id="page">
-	<div id="page-bg">
-
-		<div id="page-content">
-
-			<p>I am broadly interested in the areas of Embodied Artificial Intelligence. My general interest lies in developing algorithmic formulations under real-world constraints, that are capable of synthesizing complex behaviors on physical hardware. More specifically, my current attention is focused on solving contact rich dexterous manipulation with free objects.</p>
-
-			<p>Biological designs are a result of years of evolution. They are effective, efficient and conceal within themselves enormous wisdom -- mechanical as well as intellectual. Complex movements exhibited by the animal kingdom is a result of a tightly integrated system of bio-muscular structures and fast reactive motor control. If artificial counterparts are to exhibit comparable behaviors, the solution is likely to be situated at the intersection of mechanism and computation. I use tools from reinforcement learning, robotics, optimal control, and optimization to reason at the intersection of mechanisms and algorithms to design robust sample-efficient techniques that scale to and succeed on the physical hardware.</p>
-
-
-			<!-- Selected-->
-			<!-- <table><col width="156"><tbody>
-				<tr valign="top"><th colspan="2"> Highlights </th></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/game.png"></p></td>
-				<td><p>
-					<h3>A Game Theoretic Framework for Model-Based Reinforcement Learning</h3>
-					Aravind Rajeswaran,  Igor Mordatch, Vikash Kumar
-					<br>International Conference on Machine Learning (ICML) 2020
-					<br><u><a href="https://sites.google.com/view/mbrl-game" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/dads.png"></p></td>
-				<td><p>
-					<h3>Dynamics-Aware Unsupervised Discovery of Skills</h3>
-					Archit Sharma, Shixiang Gu, Sergey Levine, Vikash Kumar, Karol Hausman
-					<br> International Conference on Learning Representations (ICLR) 2020
-					<br><u><a href="https://sites.google.com/corp/view/dads-skill" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/robel.png"></p></td>
-				<td><p>
-					<h3>ROBEL: RObotics BEnchmarks for Learning</h3>
-					Michael Ahn, Henry Zhu, Kristian Hartikainen, Hugo Ponte, Abhishek Gupta, Sergey Levine, Vikash Kumar
-					<br>Conference on Robot Learning (CoRL) 2019
-					<br><u><a href="https://sites.google.com/view/roboticsbenchmarks" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/pddm.jpg"></p></td>
-				<td><p>
-					<h3>Deep Dynamics Models for Learning Dexterous Manipulation</h3>
-					Anusha Nagabandi, Kurt Konolige, Sergey Levine, Vikash Kumar
-					<br>Conference on Robot Learning (CoRL) 2019
-					<br><u><a href="https://sites.google.com/view/pddm" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/hsim2real.jpg"></p></td>
-				<td><p>
-					<h3>Multi-Agent Manipulation via Locomotion using Hierarchical Sim2Real</h3>
-					Ofir Nachum, Michael Ahn, Hugo Ponte, Shane Gu, Vikash Kumar
-					<br>Conference on Robot Learning (CoRL) 2019
-					<br><u><a href="https://sites.google.com/view/manipulation-via-locomotion" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/RLwithDemo/icon.jpg"></p></td>
-				<td><p>
-					<h3>Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations</h3>
-					<h3>DAPG: Demo Augmented Policy Gradient</h3>
-					Vikash Kumar*, Aravind Rajeshwaran*, Abhiskek Gupta, John Schulman, Emanuel Todorov, and Sergey Levine
-					<br>Proceedings of Robotics: Science and Systems (RSS) 2018
-					<br><u><a href="Projects/RLwithDemo/dapg.pdf">Paper</a></u>, <u><a href="Projects/RLwithDemo/dapg-supplementary-materials.pdf">suppliment</a></u>,
-					<u><a href="http://www.youtube.com/embed/jJtBll8l_OM?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations">Movie</a></u>,
-					<u><a href="https://sites.google.com/view/deeprl-dexterous-manipulation" target="_blank"  title="project's webpage">webpage</a></u>,
-					<u><a href="https://arxiv.org/abs/1709.10087" title="preprint on arxiv">arxiv</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/handRL/icon.jpg"></p></td>
-				<td><font color="red"><b>BEST MANIPULATION PAPER AWARD</b></font>
-				<p>
-					<h3>Optimal Control with Learned Local Models: Application to Dexterous Manipulation</h3>
-					Vikash Kumar, Emanuel Todorov, and Sergey Levine
-					<br>IEEE International Conference on Robotics and Automation (ICRA) 2016
-					<br><u><a href="Projects/handRL/handRL.pdf">Paper</a></u>,
-					<u><a href="http://www.youtube.com/embed/bD5z1I1TU3w?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Optimal Control with Learned Local Models: Application to Dexterous Manipulation">Movie</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/Hand/icon(handManipulation).jpg"></p></td>
-				<td><p>
-					<h3>Real-time behaviour synthesis for dynamic Hand-Manipulation</h3>
-					Vikash Kumar, Yuval Tassa, Tom Erez and Emanuel Todorov
-					<br>IEEE International Conference on Robotics and Automation (ICRA) 2014
-					<br><u><a href="Projects/Hand/BehaviourSynthesis(Manipulation&Typing).pdf">Paper</a></u>,
-					<u><a href="Projects/Hand/BehaviourSynthesis(Manipulation&Typing).mp4">Movie</a></u><br>
-					<u><a href="P_Hand.html" target="_blank"  title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-
-			</tbody></table> -->
-
-
-			<br><br>
-
-			<!--Representation Learning-->
-			<table><col width="156"><tbody>
-				<tr valign="top"><th colspan="2"> (2022-2023)</th></tr>
-				<!--<tr valign="top"><td colspan="2"> description</td></tr>-->
-
-
-			<tr valign="top"><td><p><img src="Projects/icons/myodex.png" width="120"></p></td>
-				<td><p>
-					<h3>MyoDex: Generalizable Representations for Dexterous Physiological Manipulation</h3>
-					Vittorio Caggiano, Sudeep Dasari, Vikash Kumar
-					<br>International Conference on Machine Learning (ICML) 2023
-					<br><u><a href="https://sites.google.com/view/myodex" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-			<tr valign="top"><td><p><img src="Projects/icons/liv.png" width="120"></p></td>
-				<td><p>
-					<h3>LIV: Language-Image Representations and Rewards for Robotic Control</h3>
-					Jason Ma, Vikash Kumar, Amy Zhang, Osbert Bastani, Dinesh Jayaraman
-					<br>International Conference on Machine Learning (ICML) 2023
-					<br><u><a href="https://penn-pal-lab.github.io/LIV/" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-
-			<tr valign="top"><td><p><img src="Projects/icons/sar.png" width="120"></p></td>
-				<td><p>
-					<h3>SAR:Generalization of Dexterity via  Synergistic Action Representation</h3>
-					Cameraon Berg, Vittorio Caggiano, Vikash Kumar
-					<br>Proceedings of Robotics: Science and Systems (RSS) 2023
-					<br><u><a href="https://sites.google.com/view/sar-rl/" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-
-			<tr valign="top"><td><p><img src="Projects/icons/aloha.png" width="120"></p></td>
-				<td><p>
-					<h3>ACT: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware</h3>
-					Tony Zhao, Vikash Kumar, Sergey Levine, Chelsea Finn
-					<br>Proceedings of Robotics: Science and Systems (RSS) 2023
-					<br><u><a href="https://tonyzhaozh.github.io/aloha/" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-			<tr valign="top"><td><p><img src="Projects/icons/visualDex.png" width="120"></p></td>
-				<td><p>
-					<h3>Visual Dexterity: In-hand Dexterous Manipulation from Depth</h3>
-					Tao Chen, Megha Tippur, Siyang Wu, Vikash Kumar, Edward Adelson, Pulkit Agrawal
-					<br>(Under Review)
-					<br><u><a href="https://taochenshh.github.io/projects/visual-dexterity" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-
-			<tr valign="top"><td><p><img src="Projects/icons/genaug.png" width="120"></p></td>
-				<td><p>
-					<h3>GenAug: Retargeting behaviors to unseen situations via Generative Augmentation</h3>
-					Zoey Chen, Sho Kiami, Abhishek Gupta, Vikash Kumar
-					<br>Proceedings of Robotics: Science and Systems (RSS) 2023
-					<br><u><a href="https://genaug.github.io/" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-
-			<tr valign="top"><td><p><img src="Projects/icons/h2r.png" width="120"></p></td>
-				<td><p>
-					<h3>H2R: Zero-Shot Robot Manipulation from Passive Human Videos</h3>
-					Homanga Bharadhwaj, Abhinav Gupta, {Shubham Tulsiani*, Vikash Kumar*}
-					<br>under review
-					<br><u><a href="https://sites.google.com/view/human-0shot-robot" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-
-			<tr valign="top"><td><p><img src="Projects/icons/avail.png" width="120"></p></td>
-				<td><p>
-					<h3>Dexterous Manipulation from Images: Autonomous Real-World RL via Substep Guidance</h3>
-					Kelvin Xu, Zheyuan Hu, Ria Doshi, Aaron Rovinsky, Vikash Kumar, Abhishek Gupta, Sergey Levine
-					<br>International Conference on Robotics and Automation (ICRA) 2023
-					<br><u><a href="https://sites.google.com/view/dexterous-avail/" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-			<tr valign="top"><td><p><img src="Projects/icons/modem.png" width="120"></p></td>
-				<td><p>
-					<h3>MoDem: Accelerating Visual Model-Based Reinforcement Learning with Demonstrations</h3>
-					Nicklas Hansen, Yixin Lin, Hao Su, Xiaolong Wang, Vikash Kumar, Aravind Rajeswaran
-					<br> International Conference on Learning Representations (ICLR) 2023
-					<br><u><a href="https://nicklashansen.github.io/modemrl/" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-
-			<tr valign="top"><td><p><img src="Projects/icons/cacti.png" width="120"></p></td>
-				<td><p>
-					<h3>CACTI: A Framework for Scalable Multi-Task Multi-Scene Visual Imitation Learning</h3>
-					Zhao Mandi, Homanga Bharadhwaj, Vincent Moens, Shuran Song, Aravind Rajeswaran, Vikash Kumar
-					<br>Workshop on Pre-training Robot Learning, CORL 2022
-					<br><u><a href="https://cacti-framework.github.io/" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/dmanus.png" width="120"></p></td>
-					<td><p>
-						<h3>All the Feels: A dexterous hand with large area sensing</h3>
-						Raunaq Bhirangi, Abigail DeFranco, Jacob Adkins, Carmel Majidi, Abhinav Gupta, Tess Hellebrekers, Vikash Kumar
-						<br>under submission
-						<br><u><a href="https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/real-orl.png" width="120"></p></td>
-					<td><p>
-						<h3>Real World Offline Reinforcement Learning with Realistic Data Source</h3>
-						Gaoyue Zhou*, Liyiming Ke*, Siddhartha Srinivasa, Abhinav Gupta, Aravind Rajeswaran, Vikash Kumar
-						<br>International Conference on Robotics and Automation (ICRA) 2023
-						<br><u><a href="https://sites.google.com/view/real-orl" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-
-				<tr valign="top"><td><p><img src="Projects/icons/vip.png" width="120"></p></td>
-					<td><p>
-						<h3>VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training</h3>
-						Jason Ma, Shagun Sodhani, Dinesh Jayaraman, Osbert Bastani, {Vikash Kumar*, Amy Zhang*}
-						<br> International Conference on Learning Representations (ICLR) 2023
-						<br><u><a href="https://sites.google.com/view/vip-rl" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-
-				<tr valign="top"><td><p><img src="Projects/icons/pregrasp.png" width="120"></p></td>
-					<td><p>
-						<h3>Learning Dexterous Manipulation from Exemplar Object Trajectories and Pre-Grasps</h3>
-						Sudeep Dasari, Abhinav Gupta, Vikash Kumar
-						<br>International Conference on Robotics and Automation (ICRA) 2023
-						<br><u><a href="https://pregrasps.github.io/" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/trs.png" width="120"></p></td>
-					<td><p>
-						<h3>Translating Robot Skills: Learning Unsupervised Skill Correspondences Across Robots</h3>
-						T Shankar, Y Lin, A Rajeswaran, V Kumar, S Anderson, J Oh
-						<br>International Conference on Machine Learning (ICML) 2022
-						<br><u><a href="https://sites.google.com/view/translatingrobotskills/home" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/star.png" width="120"></p></td>
-					<td><p>
-						<h3>Cross-Domain Transfer via Semantic Skill Imitation</h3>
-						Karl Pertsch, Ruta Desai, Vikash Kumar, Franziska Meier, Joseph J. Lim, Dhruv Batra, Akshara Rai
-						<br> Conference on Robot Learning (CoRL), 2022
-						<br><u><a href="https://kpertsch.github.io/star/" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-
-				<tr valign="top"><td><p><img src="Projects/icons/tslam.png" width="120"></p></td>
-					<td><p>
-						<h3>Curiosity Driven Self-supervised Tactile Exploration of Unknown Objects</h3>
-						Jianren Wang*, Yujie Lu*, Vikash Kumar,
-						<br><u><a href="https://sites.google.com/view/tslam" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-
-				<tr valign="top"><td><p><img src="Projects/icons/R3M.png"></p></td>
-					<td><p>
-						<h3>R3M: A Universal Visual Representation for Robot Manipulation</h3>
-						Suraj Nair, Aravind Rajeswaran, Vikash Kumar, Chelsea Finn, Abhinav Gupta
-						<br>Conference on Robot Learning (CoRL) 2022
-						<br>Scaling Robot Learning Workshop - ICRA 2022 | <font color="red"><b>Best Paper Award</b></font>
-						<br><u><a href="https://sites.google.com/view/robot-r3m/" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/zest.png"></p></td>
-					<td><p>
-						<h3>Can Foundation Models Perform Zero-Shot Task Specification For Robot Manipulation?</h3>
-						Yuchen Cui, Scott Niekum, Abhinav Gupta, Vikash Kumar and Aravind Rajeswaran
-						<br>Learning for Decision and Control (L4DC) 2022
-						<br>Scaling Robot Learning Workshop - RSS 2022 | <font color="red"><b>Best Paper Award Finalist</b></font>
-						<br><u><a href="https://sites.google.com/view/zestproject" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/rrl.png"></p></td>
-					<td><p>
-						<h3>RRL: Resnet as representation for Reinforcement Learning</h3>
-						Rutav Shah, Vikash Kumar
-						<br>International Conference on Machine Learning (ICML) 2021
-						<br><u><a href="https://sites.google.com/view/abstractions4rl" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-			</tbody></table>
-
-			<br><br>
-			<h2>List organized by area</h2>
-
-			<!--Benchmarks-->
-			<table><col width="156"><tbody>
-				<tr valign="top"><th colspan="2"> Benchmarks </th></tr>
-				<!--<tr valign="top"><td colspan="2"> description</td></tr>-->
-
-				<tr valign="top"><td><p><img src="Projects/icons/myosuite.png"></p></td>
-					<td><p>
-						<h3>MyoSuite: A contact-rich simulation suite for musculoskeletal motor control</h3>
-						Learning for Decision and Control (L4DC) 2022
-						<h3>MyoSim: A contact-rich simulation suite for musculoskeletal motor control</h3>
-						International Conference on Robotics and Automation (ICRA) 2022
-						<br>Vittorio Caggiano, Huawei Wang, Guillaume Durandau, Massimo Sartori, Vikash Kumar
-						<br><u><a href="https://sites.google.com/view/myosuite" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/rb2.png"></p></td>
-					<td><p>
-						<h3>RB2: Robotic Manipulation Benchmarking with a Twist</h3>
-						Sudeep Dasari, Jianren Wang, Joyce Hong, Shikhar Bahl, Yixin Lin, Austin Wang, Abitha Thankaraj, Karanbir Chahal, Berk Calli, Saurabh Gupta, David Held, Lerrel Pinto, Deepak Pathak, Vikash Kumar, Abhinav Gupta
-						<br>NeurIPS, Datasets and Benchmarks Track, 2021
-						<br><u><a href="https://agi-labs.github.io/rb2/" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/benchmarkingInHand.png"></p></td>
-				<td><p>
-					<h3>Benchmarking In-Hand Manipulation</h3>
-					Silvia Cruciani, Balakumar Sundaralingam, Kaiyu Hang, Vikash Kumar, Tucker Hermans, Danica Kragic
-					<br>IEEE Robotics and Automation Letters (RAL) 2020
-					<br>Special Issue: Benchmarking Protocols for Robotic Manipulation
-					<br><u><a href="https://robot-learning.cs.utah.edu/project/benchmarking_in_hand_manipulation" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/robel.png"></p></td>
-				<td><p>
-					<h3>ROBEL: RObotics BEnchmarks for Learning</h3>
-					Michael Ahn, Henry Zhu, Kristian Hartikainen, Hugo Ponte, Abhishek Gupta, Sergey Levine, Vikash Kumar
-					<br>Conference on Robot Learning (CoRL) 2019
-					<br><u><a href="https://sites.google.com/view/roboticsbenchmarks" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/ingredients.jpg"></p></td>
-				<td><p>
-					<h3>Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research</h3>
-					Matthias Plappert, Marcin Andrychowicz, Alex Ray, Bob McGrew, Bowen Baker, Glenn Powell, Jonas Schneider, Josh Tobin, Maciek Chociej, Peter Welinder, Vikash Kumar, Wojciech Zaremba
-					<br>Teach Report 2018
-					<br><u><a href="https://arxiv.org/pdf/1802.09464.pdf">Paper</a></u>,
-					<u><a href="http://www.youtube.com/embed/8Np3eC_PTFo?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Divide-and-Conquer Reinforcement Learning">Movie</a></u>,
-					<u><a href="https://blog.openai.com/ingredients-for-robotics-research/" target="_blank" title="project's webpage">webpage</a></u>,
-					<u><a href="https://arxiv.org/abs/1802.09464" title="arxiv">arxiv</a></u>
-				</p></td></tr>
-
-			</tbody></table>
-
-			<!--BEHAVIOR SYNTHESIS-->
-			<table border="1"><col width="156"><tbody>
-				<tr valign="top"><th colspan="2"> Behavior Synthesis </th></tr>
-				<!--<tr valign="top"><td colspan="2"> description</td></tr>-->
-
-				<tr valign="top"><td><p><img src="Projects/icons/mtrf.png"></p></td>
-					<td><p>
-						<h3>Reset-Free Reinforcement Learning via Multi-Task Learning: <br>
-							Learning Dexterous Manipulation Behaviors without Human Intervention</h3>
-						Abhishek Gupta*, Justin Yu*, Tony Z. Zhao*, Vikash Kumar*,  Aaron Rovinsky, Kelvin Xu, Thomas Devlin, Sergey Levine
-						<br> International Conference on Robotics and Automation (ICRA) 2021
-						<br><u><a href="https://sites.google.com/view/mtrf" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/game.png"></p></td>
-					<td><p>
-						<h3>A Game Theoretic Framework for Model-Based Reinforcement Learning</h3>
-						Aravind Rajeswaran,  Igor Mordatch, Vikash Kumar
-						<br>International Conference on Machine Learning (ICML) 2020
-						<br><u><a href="https://sites.google.com/view/mbrl-game" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/offdads.png"></p></td>
-					<td><p>
-						<h3>Emergent Real-World Robotic Skills via Unsupervised Reinforcement Learning</h3>
-						Archit Sharma, Michael Ahn, Sergey Levine, Vikash Kumar, Karol Hausman, Shixiang Gu
-						<br> Robotics: Science and Systems (RSS), 2020
-						<br><u><a href="https://sites.google.com/corp/view/dads-skill" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/trass.png"></p></td>
-					<td><p>
-						<h3>Time Reversal as Self-Supervision</h3>
-						Suraj Nair, Mohammad Babaeizadeh, Chelsea Finn, Sergey Levine, Vikash Kumar
-						<br>International Conference on Robotics and Automation (ICRA) 2020
-						<br><u><a href="https://sites.google.com/corp/view/time-reversal" target="_blank" title="project's webpage">webpage</a></u>
-					</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/r3l.png"></p></td>
-				<td><p>
-					<h3>The Ingredients of Real World Robotic Reinforcement Learning</h3>
-					Henry Zhu, Justin Yu, Abhishek Gupta, Dhruv Shah, Kristian Hartikainen, Avi Singh, Vikash Kumar, Sergey Levine
-					<br> International Conference on Learning Representations (ICLR) 2020
-					<br><u><a href="https://sites.google.com/view/realworld-rl" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/dads.png"></p></td>
-				<td><p>
-					<h3>Dynamics-Aware Unsupervised Discovery of Skills</h3>
-					Archit Sharma, Shixiang Gu, Sergey Levine, Vikash Kumar, Karol Hausman
-					<br> International Conference on Learning Representations (ICLR) 2020
-					<br><u><a href="https://sites.google.com/corp/view/dads-skill" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/pddm.jpg"></p></td>
-				<td><p>
-					<h3>Deep Dynamics Models for Learning Dexterous Manipulation</h3>
-					Anusha Nagabandi, Kurt Konolige, Sergey Levine, Vikash Kumar
-					<br>Conference on Robot Learning (CoRL) 2019
-					<br><u><a href="https://sites.google.com/view/pddm" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/hsim2real.jpg"></p></td>
-				<td><p>
-					<h3>Multi-Agent Manipulation via Locomotion using Hierarchical Sim2Real</h3>
-					Ofir Nachum, Michael Ahn, Hugo Ponte, Shane Gu, Vikash Kumar
-					<br>Conference on Robot Learning (CoRL) 2019
-					<br><u><a href="https://sites.google.com/view/manipulation-via-locomotion" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/relayRL.png"></p></td>
-				<td><p>
-					<h3>Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and Reinforcement Learning</h3>
-					Abhishek Gupta, Vikash Kumar, Corey Lynch, Sergey Levine, Karol Hausman
-					<br>Conference on Robot Learning (CoRL) 2019
-					<br><u><a href="https://relay-policy-learning.github.io/" target="_blank" title="project's webpage">webpage</a>,
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/lmp.png"></p></td>
-				<td><p>
-					<h3>Learning Latent Plans from Play</h3>
-					Corey Lynch, Mohi Khansari, Ted Xiao, Vikash Kumar, Jonathan Tompson, Sergey Levine, Pierre Sermanet
-					<br>Conference on Robot Learning (CoRL) 2019
-					<br><u><a href="https://learning-from-play.github.io" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/dclaw.png"></p></td>
-				<td><p>
-					<h3>Dexterous Manipulation with Deep Reinforcement Learning:Efficient, General, and Low-Cost</h3>
-					Henry Zhu*, Abhishek Gupta*, Aravind Rajeswaran, Sergey Levine, Vikash Kumar
-					<br>International Conference on Robotics and Automation (ICRA) 2019
-					<br><u><a href="https://sites.google.com/corp/view/deeprl-handmanipulation" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/vil.png"></p></td>
-				<td><p>
-					<h3>Learning Deep Visuomotor Policies for Dexterous Hand Manipulation</h3>
-					Divye Jain, Andrew Li, Shivam Singhal, Aravind Rajeswaran, Vikash Kumar, Emanuel Todorov
-					<br>International Conference on Robotics and Automation (ICRA) 2019
-					<br><u><a href="https://sites.google.com/corp/view/hand-vil" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-
-				<tr valign="top"><td><p><img src="Projects/RLwithDemo/icon.jpg"></p></td>
-				<td><p>
-					<h3>Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations</h3>
-					<h3>DAPG: Demo Augmented Policy Gradient</h3>
-					Vikash Kumar*, Aravind Rajeshwaran*, Abhiskek Gupta, John Schulman, Emanuel Todorov, and Sergey Levine
-					<br>Proceedings of Robotics: Science and Systems (RSS) 2018
-					<br><u><a href="Projects/RLwithDemo/dapg.pdf">Paper</a></u>, <u><a href="Projects/RLwithDemo/dapg-supplementary-materials.pdf">suppliment</a></u>,
-					<u><a href="http://www.youtube.com/embed/jJtBll8l_OM?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations">Movie</a></u>,
-					<u><a href="https://sites.google.com/view/deeprl-dexterous-manipulation" target="_blank"  title="project's webpage">webpage</a></u>,
-					<u><a href="https://arxiv.org/abs/1709.10087" title="preprint on arxiv">arxiv</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/dnc.jpg"></p></td>
-				<td><p>
-					<h3>Divide-and-Conquer Reinforcement Learning</h3>
-					Dibya Ghosh, Avi Singh, Aravind Rajeswaran, Vikash Kumar, Sergey Levine
-					<br>International Conference on Learning Representations (ICLR) 2018
-					<br><u><a href="https://openreview.net/pdf?id=rJwelMbR-">Paper</a></u>,
-					<u><a href="http://www.youtube.com/embed/2uXh8ic-gcg?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Divide-and-Conquer Reinforcement Learning">Movie</a></u>,
-					<u><a href="https://sites.google.com/view/dnc-rl/" target="_blank" title="project's webpage">webpage</a></u>,
-					<u><a href="https://arxiv.org/abs/1711.09874" title="arxiv">arxiv</a></u>,
-					<u><a href="https://openreview.net/forum?id=rJwelMbR-" title="OpenReview">OpenReview</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/icons/baseline.jpg"></p></td>
-				<td><p>
-					<h3>Variance Reduction for Policy Gradient with Action-dependent Baseline</h3>
-					Cathy Wu, Aravind Rajeswaran, Yan Duan, Vikash Kumar, Alexandre M Bayen, Sham Kakade, Igor Mordatch, Pieter Abbeel
-					<br>International Conference on Learning Representations (ICLR) 2018
-					<br><u><a href="https://sites.google.com/view/ad-baselines" target="_blank" title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/handRL/icon2.jpg"></p></td>
-				<td><p>
-					<h3>Learning Dexterous Manipulation Policies from Experience and Imitation</h3>
-					Vikash Kumar, Abhiskek Gupta, Emanuel Todorov, and Sergey Levine
-					<br><u>Under Review</u>
-					<br><u><a href="Projects/handRL/handRL2.pdf">Paper</a></u>,
-					<u><a href="http://www.youtube.com/embed/E0wmO6deqjo?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Learning Dexterous Manipulation Policies from Experience and Imitation">Movie</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/handRL/icon.jpg"></p></td>
-				<td><font color="red"><b>BEST MANIPULATION PAPER AWARD</b></font>
-				<p>
-					<h3>Optimal Control with Learned Local Models: Application to Dexterous Manipulation</h3>
-					Vikash Kumar, Emanuel Todorov, and Sergey Levine
-					<br>IEEE International Conference on Robotics and Automation (ICRA) 2016
-					<br><u><a href="Projects/handRL/handRL.pdf">Paper</a></u>,
-					<u><a href="http://www.youtube.com/embed/bD5z1I1TU3w?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Optimal Control with Learned Local Models: Application to Dexterous Manipulation">Movie</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/Hand/icon(handManipulation).jpg"></p></td>
-				<td><p>
-					<h3>Real-time behaviour synthesis for dynamic Hand-Manipulation</h3>
-					Vikash Kumar, Yuval Tassa, Tom Erez and Emanuel Todorov
-					<br>IEEE International Conference on Robotics and Automation (ICRA) 2014
-					<br><u><a href="Projects/Hand/BehaviourSynthesis(Manipulation&Typing).pdf">Paper</a></u>,
-					<u><a href="Projects/Hand/BehaviourSynthesis(Manipulation&Typing).mp4">Movie</a></u><br>
-					<u><a href="P_Hand.html" target="_blank"  title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/DRC/icon.jpg"></p></td>
-				<td><p>
-					<h3>An integrated system for real-time Model Predictive Control of humanoid robots</h3>
-					Tom Erez, Kendall Lowrey, Yuval Tassa, Vikash Kumar, Svetoslav Kolev, Emanuel Todorov
-					<br>Humanoids 2013
-					<br><u><a href="Projects/DRC/DRC.pdf">Paper</a></u>,
-					<a href="http://www.youtube.com/embed/gasR7b6eT7g?HD=1;showinfo=0" class="html5lightbox"  data-group="DRCgroup" data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/DRC/icon.jpg" title="An integrated system for real-time Model Predictive Control of humanoid robots" data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">Overview</a>,
-					<a href="http://www.youtube.com/embed/Jgr4TDaHZ1o?HD=1;showinfo=0" class="html5lightbox"  data-group="DRCgroup" data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/DRC/Dynamic_Look_At_Icon.jpg" title="Dynamic look at" data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">Dynamics look at</a>
-					<a href="http://www.youtube.com/embed/8lPZg0_PsXk?HD=1;showinfo=0" class="html5lightbox"  data-group="DRCgroup" data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/DRC/Dynamic_Walking_Icon.jpg" title="Dynamic walking" data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">Dynamic walking</a>
-					<a href="http://www.youtube.com/embed/lWqtW6xuAY4?HD=1;showinfo=0" 	class="html5lightbox"  data-group="DRCgroup" data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/DRC/Hand_Tracking_Icon.jpg" title="Dynamic hand tracking" data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">Dynamic tracking</a>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/Hand/icon(behaviorSynthesis).jpg"></p></td>
-				<td><p>
-					<h3>Synthesis of Complex Behaviors with Optimal Control</h3>
-					Todorov Emanuel, Tassa Yuval, Erez Tom, Mordatch Igor, Kulchenko Paul, Kumar Vikash
-					<br>Computational and Systems Neuroscience (COSYNE) 2013
-					<br><u><a href="Projects/Hand/Complex Behaviors(CoSyNe13).pdf">Abstract</a></u>,
-					<u><a href="http://www.youtube.com/embed/jYh8ZCyS1Ow?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Synthesis of Complex Behaviors with Optimal Control">Movie</a></u><br>
-
-				</p></td></tr>
-			</tbody></table>
-
-			<!--VIRTUAL REALITY-->
-			<table><col width="156"><tbody>
-				<tr valign="top"><th colspan="2"> Virtual reality </th></tr>
-				<!--<tr valign="top"><td colspan="2"> description</td></tr>-->
-
-				<tr valign="top"><td><p><img src="Projects/haptixVR/icon.jpg"></p></td>
-				<td><p>
-					<h3>MuJoCo HAPTIX: A Virtual Reality System for Hand Manipulation</h3>
-					Vikash Kumar and Emanuel Todorov
-					<br>IEEE-RAS International Conference on Humanoid Robots 2015
-					<br><u><a href="Projects/haptixVR/haptix_humanoids15.pdf">Paper</a></u>,
-					<u><a href="http://www.youtube.com/embed/M_q_YH1aB6Q?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="MuJoCo HAPTIX: A Virtual Reality System for Hand Manipulation">Movie</a></u>
-				</p></td></tr>
-			</tbody></table>
-
-			<!--Tracking and calibration-->
-			<table><col width="156"><tbody>
-				<tr valign="top"><th colspan="2"> Tracking & calibration </th></tr>
-				<!--<tr valign="top"><td colspan="2"> description</td></tr>-->
-
-				<tr valign="top"><td><p><img src="Projects/kinematicExtension/icon.jpg"></p></td>
-				<td><p>
-					<h3>Precise Calibration of Robots with small link lengths using Kinematic Extensions</h3>
-					Visak Chadalavada, Vikash Kumar
-					<br>(Under progress)
-					<br><u><a href="Projects/kinematicExtension/kinematicExtension.pdf">Paper</a></u>,
-					<u><a href="http://www.youtube.com/embed/F7SzQw3RI04?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Precise Calibration of Robots with small link lengths using Kinematic Extensions">Movie</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/STAC/icon.jpg"></p></td>
-				<td><p>
-					<h3>STAC: Simultaneous Tracking and Calibration</h3>
-					Tingfan Wu, Yuval Tassa, Vikash Kumar, Javier Movellan, Emanuel Todorov
-					<br>Humanoids 2013
-					<br><u><a href="Projects/STAC/STAC.pdf">Paper</a></u>, <u><a href="Projects/STAC/STAC.mp4">Movie</a></u>
-				</p></td></tr>
-
-			</tbody></table>
-
-
-			<!--Robot design-->
-			<table><col width="156"><tbody>
-				<tr valign="top"><th colspan="2"> Robot design </th></tr>
-				<!--<tr valign="top"><td colspan="2"> description</td></tr>-->
-
-				<tr valign="top"><td><p><img src="Projects/Finger/icon(hand).jpg"></p></td>
-				<td><p>
-					<h3>A Low-cost and Modular, 20-DOF Anthropomorphic Robotic Hand: Design, Actuation and Modeling</h3>
-					Zhe Xu, Vikash Kumar, Emanuel Todorov
-					<br>Humanoids 2013
-					<br><u><a href="Projects/Finger/AnthromorphicRoboticHand(humanoids13).pdf">Paper</a></u>, <u><a href="Projects/Finger/AnthromorphicRoboticHand(RSS13).mp4">Movie</a></u><br>
-					<u><a href="P_Finger.html" target="_blank"  title="project's webpage">webpage</a></u>
-					<br><br>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/Hand/icon_actuation.png"></p></td>
-				<td><p>
-					<h3>Fast, strong and compliant pneumatic actuation for dexterous tendon-driven hands</h3>
-					Kumar Vikash, Todorov Emanuel
-					<br>IEEE International Conference on Robotics and Automation (ICRA) 2013
-					<br><u><a href="Projects/Hand/PneumaticActuationSystem(ICRA13).pdf">Paper</a></u>,
-					<u><a href="http://www.youtube.com/embed/5DPrU76FbGk?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Fast, strong and compliant pneumatic actuation for dexterous tendon-driven hands">Movie</a></u><br>
-					<u><a href="P_Hand.html" target="_blank"  title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/Finger/icon(finger).jpg"></p></td>
-				<td><p>
-					<h3>Design of an anthropomorphic robotic finger system with biomimetic artificial joints</h3>
-					Zhe Xhe, Kumar Vikash, Matsuoka Yoki, Todorov Emanuel
-					<br>IEEE International Conference on Biomedical Robotics and Biomechatronics (BioRob) 2012
-					<br><u><a href="Projects/Finger/AnthromorphicRoboticFinger(BIOROB12).pdf">Paper</a></u>, <u><a href="Projects/Finger/AnthromorphicRoboticFinger(BioRob12).mp4">Movie</a></u><br>
-					<u><a href="P_Finger.html" target="_blank"  title="project's webpage">webpage</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/CognitiveRoboticArm/icon.jpg"></p></td>
-				<td><p>
-					<h3>Self and Mutual learning in Robotic Arm, based on Cognitive systems</h3>
-					Kumar Vikash, Patil Chetan, Sachan Sachan
-					<br>International MultiConference of Engineers and Computer Scientists 2010 (Shortlisted for Best paper Award)
-					<br><u><a href="Projects/CognitiveRoboticArm/CognitiveRoboticArm.pdf">Paper</a></u>,
-					<u><a href="http://www.youtube.com/embed/gp5C78UVrMo?HD=1;rel=0;showinfo=0" class="html5lightbox" data-width=800 data-height=400 title="Self and Mutual learning in Robotic Arm, based on Cognitive systems">Movie</a></u>
-				</p></td></tr>
-			</tbody></table>
-
-			<!--Manuscript-->
-			<table><col width="156"><tbody>
-				<tr valign="top"><th colspan="2"> Manuscripts </th></tr>
-				<!--<tr valign="top"><td colspan="2"> description</td></tr>-->
-
-				<tr valign="top"><td><p><img src="Projects/Hand/icon(hpp).png"></p></td>
-				<td><p>
-					<h3>High performance pneumatics using Model Predictive Control</h3>
-					Vikash Kumar, Visak CV, Emanuel Todorov
-					<br><u><a href="Projects/Hand/penuumaticsViaMPC.pdf">Paper</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/Thesis/icon.jpg"></p></td>
-				<td><p>
-					<h3>Optimizing fuzzy multi-objective problems using fuzzy genetic algorithms and FZDT test functions</h3>
-					Kumar Vikash, Chakroborty Debjani
-					<br><u><a href="Projects/Thesis/FNMGA.pdf">Paper</a></u>
-				</p></td></tr>
-
-				<tr valign="top"><td><p><img src="Projects/Finger/icon(IJRR).jpg"></p></td>
-				<td><p>
-					<h3>The UW Hand: A Low-cost, 20-DOF Tendon-driven Hand with Fast and Compliant Actuation</h3>
-					Zhe X, Kumar V, Todorov E.
-					<br><u><a href="Projects/Finger/AnthromorphicRoboticHand(IJRR13).pdf">Paper</a></u>,
-					<u><a href="Projects/Finger/AnthromorphicRoboticHand(RSS13).mp4">Movie</a></u>,
-				</p></td></tr>
-			</tbody></table>
-		</div>
-
-		<div style="clear: both;">&nbsp;</div>
-	</div>
-
-</div>
-<!-- end page -->
-<div id="footer">
-		<div id = "footer_left"></div>
-		<div id = "footer_right"></div>
-	<p>&copy;2013 &nbsp;|&nbsp; Design by <b>Vikash, CSE, University of Washington, Seattle, USA</b></p>
-</div>
+    <!-- start header -->
+    <div id="logo">
+        <h1>
+            <a href="index.html">Vikash Kumar &nbsp; </a>
+            <a href="https://twitter.com/vikashplus"><img src="images/twitter-50.png" height="20" alt="Twitter"></a>
+            <a href="https://www.youtube.com/@vikashplus"><img src="images/youtube-50.png" height="20"
+                    alt="Twitter"></a>
+            <a href="https://github.com/vikashplus"><img src="images/github-50.png" height="20" alt="Github"></a>
+            <a href="https://scholar.google.com/citations?user=lS96SqoAAAAJ"><img src="images/scholar-30.png"
+                    height="20" alt="Google Scholar"></a>
+        </h1>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a style="border-left:0px" href="index.html">Highlights</a></li>
+            <li><a href="news.html">Impacts</a></li>
+            <li class="current_page_item"><a href="Publications.html">Publications</a></li>
+            <li><a href="Thesis.html">Thesis</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="AboutMe.html">About me</a></li>
+        </ul>
+    </div>
+    <!-- end header -->
+
+    <!-- start page -->
+    <div id="page">
+        <div id="page-bg">
+
+            <div id="page-content">
+
+                <p>I am broadly interested in the areas of Embodied Artificial Intelligence. My general interest lies in
+                    developing algorithmic formulations under real-world constraints, that are capable of synthesizing
+                    complex behaviors on physical hardware. More specifically, my current attention is focused on
+                    solving contact rich dexterous manipulation with free objects.</p>
+
+                <p>Biological designs are a result of years of evolution. They are effective, efficient and conceal
+                    within themselves enormous wisdom -- mechanical as well as intellectual. Complex movements exhibited
+                    by the animal kingdom is a result of a tightly integrated system of bio-muscular structures and fast
+                    reactive motor control. If artificial counterparts are to exhibit comparable behaviors, the solution
+                    is likely to be situated at the intersection of mechanism and computation. I use tools from
+                    reinforcement learning, robotics, optimal control, and optimization to reason at the intersection of
+                    mechanisms and algorithms to design robust sample-efficient techniques that scale to and succeed on
+                    the physical hardware.</p><br>
+
+                <table>
+                    <col width="156">
+                    <tbody>
+                        <tr valign="top">
+                            <th colspan=""> Publications</th>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="categories">
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag1" onchange="change();" />tag1</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag2" onchange="change();" />tag2</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag3" onchange="change();" />tag3</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag4" onchange="change();" />tag4</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag5" onchange="change();" />tag5</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag6" onchange="change();" />tag6</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag7" onchange="change();" />tag7</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag8" onchange="change();" />tag8</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag9" onchange="change();" />tag9</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="check2" rel="tag10" onchange="change();" />tag10</label>
+                    </div>
+                    <input class="url-style-button" type="button" onclick="uncheckAll()" value="Uncheck All"
+                        id="showAllButton">
+                </div>
+
+                <!--Representation Learning-->
+                <table>
+                    <col width="156">
+                    <tbody>
+                        <tr valign="top">
+                            <th colspan="2"> (2022-2023)</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="result">
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/myodex.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>MyoDex: Generalizable Representations for Dexterous Physiological Manipulation
+                                    </h3>
+                                    Vittorio Caggiano, Sudeep Dasari, Vikash Kumar
+                                    <br>International Conference on Machine Learning (ICML) 2023
+                                    <br><u><a href="https://sites.google.com/view/myodex" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/liv.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>LIV: Language-Image Representations and Rewards for Robotic Control</h3>
+                                    Jason Ma, Vikash Kumar, Amy Zhang, Osbert Bastani, Dinesh Jayaraman
+                                    <br>International Conference on Machine Learning (ICML) 2023
+                                    <br><u><a href="https://penn-pal-lab.github.io/LIV/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/sar.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>SAR:Generalization of Dexterity via Synergistic Action Representation</h3>
+                                    Cameraon Berg, Vittorio Caggiano, Vikash Kumar
+                                    <br>Proceedings of Robotics: Science and Systems (RSS) 2023
+                                    <br><u><a href="https://sites.google.com/view/sar-rl/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/aloha.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>ACT: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware</h3>
+                                    Tony Zhao, Vikash Kumar, Sergey Levine, Chelsea Finn
+                                    <br>Proceedings of Robotics: Science and Systems (RSS) 2023
+                                    <br><u><a href="https://tonyzhaozh.github.io/aloha/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/visualDex.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Visual Dexterity: In-hand Dexterous Manipulation from Depth</h3>
+                                    Tao Chen, Megha Tippur, Siyang Wu, Vikash Kumar, Edward Adelson, Pulkit Agrawal
+                                    <br>(Under Review)
+                                    <br><u><a href="https://taochenshh.github.io/projects/visual-dexterity"
+                                            target="_blank" title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/genaug.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>GenAug: Retargeting behaviors to unseen situations via Generative Augmentation
+                                    </h3>
+                                    Zoey Chen, Sho Kiami, Abhishek Gupta, Vikash Kumar
+                                    <br>Proceedings of Robotics: Science and Systems (RSS) 2023
+                                    <br><u><a href="https://genaug.github.io/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/h2r.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>H2R: Zero-Shot Robot Manipulation from Passive Human Videos</h3>
+                                    Homanga Bharadhwaj, Abhinav Gupta, {Shubham Tulsiani*, Vikash Kumar*}
+                                    <br>under review
+                                    <br><u><a href="https://sites.google.com/view/human-0shot-robot" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/avail.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Dexterous Manipulation from Images: Autonomous Real-World RL via Substep
+                                        Guidance
+                                    </h3>
+                                    Kelvin Xu, Zheyuan Hu, Ria Doshi, Aaron Rovinsky, Vikash Kumar, Abhishek Gupta,
+                                    Sergey
+                                    Levine
+                                    <br>International Conference on Robotics and Automation (ICRA) 2023
+                                    <br><u><a href="https://sites.google.com/view/dexterous-avail/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/modem.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>MoDem: Accelerating Visual Model-Based Reinforcement Learning with
+                                        Demonstrations
+                                    </h3>
+                                    Nicklas Hansen, Yixin Lin, Hao Su, Xiaolong Wang, Vikash Kumar, Aravind Rajeswaran
+                                    <br> International Conference on Learning Representations (ICLR) 2023
+                                    <br><u><a href="https://nicklashansen.github.io/modemrl/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/cacti.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>CACTI: A Framework for Scalable Multi-Task Multi-Scene Visual Imitation Learning
+                                    </h3>
+                                    Zhao Mandi, Homanga Bharadhwaj, Vincent Moens, Shuran Song, Aravind Rajeswaran,
+                                    Vikash
+                                    Kumar
+                                    <br>Workshop on Pre-training Robot Learning, CORL 2022
+                                    <br><u><a href="https://cacti-framework.github.io/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag2">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/dmanus.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>All the Feels: A dexterous hand with large area sensing</h3>
+                                    Raunaq Bhirangi, Abigail DeFranco, Jacob Adkins, Carmel Majidi, Abhinav Gupta, Tess
+                                    Hellebrekers, Vikash Kumar
+                                    <br>under submission
+                                    <br><u><a href="https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus"
+                                            target="_blank" title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag2">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/real-orl.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Real World Offline Reinforcement Learning with Realistic Data Source</h3>
+                                    Gaoyue Zhou*, Liyiming Ke*, Siddhartha Srinivasa, Abhinav Gupta, Aravind Rajeswaran,
+                                    Vikash Kumar
+                                    <br>International Conference on Robotics and Automation (ICRA) 2023
+                                    <br><u><a href="https://sites.google.com/view/real-orl" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag2">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/vip.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>VIP: Towards Universal Visual Reward and Representation via Value-Implicit
+                                        Pre-Training</h3>
+                                    Jason Ma, Shagun Sodhani, Dinesh Jayaraman, Osbert Bastani, {Vikash Kumar*, Amy
+                                    Zhang*}
+                                    <br> International Conference on Learning Representations (ICLR) 2023
+                                    <br><u><a href="https://sites.google.com/view/vip-rl" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <div class="tag2">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/pregrasp.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Learning Dexterous Manipulation from Exemplar Object Trajectories and Pre-Grasps
+                                    </h3>
+                                    Sudeep Dasari, Abhinav Gupta, Vikash Kumar
+                                    <br>International Conference on Robotics and Automation (ICRA) 2023
+                                    <br><u><a href="https://pregrasps.github.io/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag2">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/trs.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Translating Robot Skills: Learning Unsupervised Skill Correspondences Across
+                                        Robots
+                                    </h3>
+                                    T Shankar, Y Lin, A Rajeswaran, V Kumar, S Anderson, J Oh
+                                    <br>International Conference on Machine Learning (ICML) 2022
+                                    <br><u><a href="https://sites.google.com/view/translatingrobotskills/home"
+                                            target="_blank" title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag2">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/star.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Cross-Domain Transfer via Semantic Skill Imitation</h3>
+                                    Karl Pertsch, Ruta Desai, Vikash Kumar, Franziska Meier, Joseph J. Lim, Dhruv Batra,
+                                    Akshara Rai
+                                    <br> Conference on Robot Learning (CoRL), 2022
+                                    <br><u><a href="https://kpertsch.github.io/star/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag2">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/tslam.png" width="120"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Curiosity Driven Self-supervised Tactile Exploration of Unknown Objects</h3>
+                                    Jianren Wang*, Yujie Lu*, Vikash Kumar,
+                                    <br><u><a href="https://sites.google.com/view/tslam" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag2">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/R3M.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>R3M: A Universal Visual Representation for Robot Manipulation</h3>
+                                    Suraj Nair, Aravind Rajeswaran, Vikash Kumar, Chelsea Finn, Abhinav Gupta
+                                    <br>Conference on Robot Learning (CoRL) 2022
+                                    <br>Scaling Robot Learning Workshop - ICRA 2022 | <font color="red"><b>Best Paper
+                                            Award</b></font>
+                                    <br><u><a href="https://sites.google.com/view/robot-r3m/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag2">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/zest.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Can Foundation Models Perform Zero-Shot Task Specification For Robot
+                                        Manipulation?
+                                    </h3>
+                                    Yuchen Cui, Scott Niekum, Abhinav Gupta, Vikash Kumar and Aravind Rajeswaran
+                                    <br>Learning for Decision and Control (L4DC) 2022
+                                    <br>Scaling Robot Learning Workshop - RSS 2022 | <font color="red"><b>Best Paper
+                                            Award
+                                            Finalist</b></font>
+                                    <br><u><a href="https://sites.google.com/view/zestproject" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/rrl.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>RRL: Resnet as representation for Reinforcement Learning</h3>
+                                    Rutav Shah, Vikash Kumar
+                                    <br>International Conference on Machine Learning (ICML) 2021
+                                    <br><u><a href="https://sites.google.com/view/abstractions4rl" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h2>List organized by area</h2>
+                    <table>
+                        <col width="156">
+                        <tbody>
+                            <tr valign="top">
+                                <th colspan="2">Benchmarks</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/myosuite.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>MyoSuite: A contact-rich simulation suite for musculoskeletal motor control</h3>
+                                    Learning for Decision and Control (L4DC) 2022
+                                    <h3>MyoSim: A contact-rich simulation suite for musculoskeletal motor control</h3>
+                                    International Conference on Robotics and Automation (ICRA) 2022
+                                    <br>Vittorio Caggiano, Huawei Wang, Guillaume Durandau, Massimo Sartori, Vikash
+                                    Kumar
+                                    <br><u><a href="https://sites.google.com/view/myosuite" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/rb2.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>RB2: Robotic Manipulation Benchmarking with a Twist</h3>
+                                    Sudeep Dasari, Jianren Wang, Joyce Hong, Shikhar Bahl, Yixin Lin, Austin Wang,
+                                    Abitha
+                                    Thankaraj, Karanbir Chahal, Berk Calli, Saurabh Gupta, David Held, Lerrel Pinto,
+                                    Deepak
+                                    Pathak, Vikash Kumar, Abhinav Gupta
+                                    <br>NeurIPS, Datasets and Benchmarks Track, 2021
+                                    <br><u><a href="https://agi-labs.github.io/rb2/" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/benchmarkingInHand.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Benchmarking In-Hand Manipulation</h3>
+                                    Silvia Cruciani, Balakumar Sundaralingam, Kaiyu Hang, Vikash Kumar, Tucker Hermans,
+                                    Danica Kragic
+                                    <br>IEEE Robotics and Automation Letters (RAL) 2020
+                                    <br>Special Issue: Benchmarking Protocols for Robotic Manipulation
+                                    <br><u><a
+                                            href="https://robot-learning.cs.utah.edu/project/benchmarking_in_hand_manipulation"
+                                            target="_blank" title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/robel.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>ROBEL: RObotics BEnchmarks for Learning</h3>
+                                    Michael Ahn, Henry Zhu, Kristian Hartikainen, Hugo Ponte, Abhishek Gupta, Sergey
+                                    Levine,
+                                    Vikash Kumar
+                                    <br>Conference on Robot Learning (CoRL) 2019
+                                    <br><u><a href="https://sites.google.com/view/roboticsbenchmarks" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/ingredients.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request
+                                        for
+                                        Research</h3>
+                                    Matthias Plappert, Marcin Andrychowicz, Alex Ray, Bob McGrew, Bowen Baker, Glenn
+                                    Powell,
+                                    Jonas Schneider, Josh Tobin, Maciek Chociej, Peter Welinder, Vikash Kumar, Wojciech
+                                    Zaremba
+                                    <br>Teach Report 2018
+                                    <br><u><a href="https://arxiv.org/pdf/1802.09464.pdf">Paper</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/8Np3eC_PTFo?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="Divide-and-Conquer Reinforcement Learning">Movie</a></u>,
+                                    <u><a href="https://blog.openai.com/ingredients-for-robotics-research/"
+                                            target="_blank" title="project's webpage">webpage</a></u>,
+                                    <u><a href="https://arxiv.org/abs/1802.09464" title="arxiv">arxiv</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <table>
+                        <col width="156">
+                        <tbody>
+                            <tr valign="top">
+                                <th colspan="2">Behavior Synthesis</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/mtrf.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Reset-Free Reinforcement Learning via Multi-Task Learning: <br>
+                                        Learning Dexterous Manipulation Behaviors without Human Intervention</h3>
+                                    Abhishek Gupta*, Justin Yu*, Tony Z. Zhao*, Vikash Kumar*, Aaron Rovinsky, Kelvin
+                                    Xu,
+                                    Thomas Devlin, Sergey Levine
+                                    <br> International Conference on Robotics and Automation (ICRA) 2021
+                                    <br><u><a href="https://sites.google.com/view/mtrf" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/game.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>A Game Theoretic Framework for Model-Based Reinforcement Learning</h3>
+                                    Aravind Rajeswaran, Igor Mordatch, Vikash Kumar
+                                    <br>International Conference on Machine Learning (ICML) 2020
+                                    <br><u><a href="https://sites.google.com/view/mbrl-game" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/offdads.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Emergent Real-World Robotic Skills via Unsupervised Reinforcement Learning</h3>
+                                    Archit Sharma, Michael Ahn, Sergey Levine, Vikash Kumar, Karol Hausman, Shixiang Gu
+                                    <br> Robotics: Science and Systems (RSS), 2020
+                                    <br><u><a href="https://sites.google.com/corp/view/dads-skill" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag3">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/trass.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Time Reversal as Self-Supervision</h3>
+                                    Suraj Nair, Mohammad Babaeizadeh, Chelsea Finn, Sergey Levine, Vikash Kumar
+                                    <br>International Conference on Robotics and Automation (ICRA) 2020
+                                    <br><u><a href="https://sites.google.com/corp/view/time-reversal" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/r3l.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>The Ingredients of Real World Robotic Reinforcement Learning</h3>
+                                    Henry Zhu, Justin Yu, Abhishek Gupta, Dhruv Shah, Kristian Hartikainen, Avi Singh,
+                                    Vikash Kumar, Sergey Levine
+                                    <br> International Conference on Learning Representations (ICLR) 2020
+                                    <br><u><a href="https://sites.google.com/view/realworld-rl" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/dads.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Dynamics-Aware Unsupervised Discovery of Skills</h3>
+                                    Archit Sharma, Shixiang Gu, Sergey Levine, Vikash Kumar, Karol Hausman
+                                    <br> International Conference on Learning Representations (ICLR) 2020
+                                    <br><u><a href="https://sites.google.com/corp/view/dads-skill" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/pddm.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Deep Dynamics Models for Learning Dexterous Manipulation</h3>
+                                    Anusha Nagabandi, Kurt Konolige, Sergey Levine, Vikash Kumar
+                                    <br>Conference on Robot Learning (CoRL) 2019
+                                    <br><u><a href="https://sites.google.com/view/pddm" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/hsim2real.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Multi-Agent Manipulation via Locomotion using Hierarchical Sim2Real</h3>
+                                    Ofir Nachum, Michael Ahn, Hugo Ponte, Shane Gu, Vikash Kumar
+                                    <br>Conference on Robot Learning (CoRL) 2019
+                                    <br><u><a href="https://sites.google.com/view/manipulation-via-locomotion"
+                                            target="_blank" title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/relayRL.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and
+                                        Reinforcement
+                                        Learning</h3>
+                                    Abhishek Gupta, Vikash Kumar, Corey Lynch, Sergey Levine, Karol Hausman
+                                    <br>Conference on Robot Learning (CoRL) 2019
+                                    <br><u><a href="https://relay-policy-learning.github.io/" target="_blank"
+                                            title="project's webpage">webpage</a>,
+                                        </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/lmp.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Learning Latent Plans from Play</h3>
+                                    Corey Lynch, Mohi Khansari, Ted Xiao, Vikash Kumar, Jonathan Tompson, Sergey Levine,
+                                    Pierre Sermanet
+                                    <br>Conference on Robot Learning (CoRL) 2019
+                                    <br><u><a href="https://learning-from-play.github.io" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/dclaw.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Dexterous Manipulation with Deep Reinforcement Learning:Efficient, General, and
+                                        Low-Cost</h3>
+                                    Henry Zhu*, Abhishek Gupta*, Aravind Rajeswaran, Sergey Levine, Vikash Kumar
+                                    <br>International Conference on Robotics and Automation (ICRA) 2019
+                                    <br><u><a href="https://sites.google.com/corp/view/deeprl-handmanipulation"
+                                            target="_blank" title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/vil.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Learning Deep Visuomotor Policies for Dexterous Hand Manipulation</h3>
+                                    Divye Jain, Andrew Li, Shivam Singhal, Aravind Rajeswaran, Vikash Kumar, Emanuel
+                                    Todorov
+                                    <br>International Conference on Robotics and Automation (ICRA) 2019
+                                    <br><u><a href="https://sites.google.com/corp/view/hand-vil" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/RLwithDemo/icon.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and
+                                        Demonstrations</h3>
+                                    <h3>DAPG: Demo Augmented Policy Gradient</h3>
+                                    Vikash Kumar*, Aravind Rajeshwaran*, Abhiskek Gupta, John Schulman, Emanuel Todorov,
+                                    and
+                                    Sergey Levine
+                                    <br>Proceedings of Robotics: Science and Systems (RSS) 2018
+                                    <br><u><a href="Projects/RLwithDemo/dapg.pdf">Paper</a></u>, <u><a
+                                            href="Projects/RLwithDemo/dapg-supplementary-materials.pdf">suppliment</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/jJtBll8l_OM?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations">Movie</a></u>,
+                                    <u><a href="https://sites.google.com/view/deeprl-dexterous-manipulation"
+                                            target="_blank" title="project's webpage">webpage</a></u>,
+                                    <u><a href="https://arxiv.org/abs/1709.10087"
+                                            title="preprint on arxiv">arxiv</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/dnc.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Divide-and-Conquer Reinforcement Learning</h3>
+                                    Dibya Ghosh, Avi Singh, Aravind Rajeswaran, Vikash Kumar, Sergey Levine
+                                    <br>International Conference on Learning Representations (ICLR) 2018
+                                    <br><u><a href="https://openreview.net/pdf?id=rJwelMbR-">Paper</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/2uXh8ic-gcg?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="Divide-and-Conquer Reinforcement Learning">Movie</a></u>,
+                                    <u><a href="https://sites.google.com/view/dnc-rl/" target="_blank"
+                                            title="project's webpage">webpage</a></u>,
+                                    <u><a href="https://arxiv.org/abs/1711.09874" title="arxiv">arxiv</a></u>,
+                                    <u><a href="https://openreview.net/forum?id=rJwelMbR-"
+                                            title="OpenReview">OpenReview</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag6">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/icons/baseline.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Variance Reduction for Policy Gradient with Action-dependent Baseline</h3>
+                                    Cathy Wu, Aravind Rajeswaran, Yan Duan, Vikash Kumar, Alexandre M Bayen, Sham
+                                    Kakade,
+                                    Igor Mordatch, Pieter Abbeel
+                                    <br>International Conference on Learning Representations (ICLR) 2018
+                                    <br><u><a href="https://sites.google.com/view/ad-baselines" target="_blank"
+                                            title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag6">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/handRL/icon2.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Learning Dexterous Manipulation Policies from Experience and Imitation</h3>
+                                    Vikash Kumar, Abhiskek Gupta, Emanuel Todorov, and Sergey Levine
+                                    <br><u>Under Review</u>
+                                    <br><u><a href="Projects/handRL/handRL2.pdf">Paper</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/E0wmO6deqjo?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="Learning Dexterous Manipulation Policies from Experience and Imitation">Movie</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag6">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/handRL/icon.jpg"></p>
+                                </td>
+                                <td>
+                                    <font color="red"><b>BEST MANIPULATION PAPER AWARD</b></font>
+                                    <p>
+                                    <h3>Optimal Control with Learned Local Models: Application to Dexterous Manipulation
+                                    </h3>
+                                    Vikash Kumar, Emanuel Todorov, and Sergey Levine
+                                    <br>IEEE International Conference on Robotics and Automation (ICRA) 2016
+                                    <br><u><a href="Projects/handRL/handRL.pdf">Paper</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/bD5z1I1TU3w?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="Optimal Control with Learned Local Models: Application to Dexterous Manipulation">Movie</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag6">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/Hand/icon(handManipulation).jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Real-time behaviour synthesis for dynamic Hand-Manipulation</h3>
+                                    Vikash Kumar, Yuval Tassa, Tom Erez and Emanuel Todorov
+                                    <br>IEEE International Conference on Robotics and Automation (ICRA) 2014
+                                    <br><u><a
+                                            href="Projects/Hand/BehaviourSynthesis(Manipulation&Typing).pdf">Paper</a></u>,
+                                    <u><a
+                                            href="Projects/Hand/BehaviourSynthesis(Manipulation&Typing).mp4">Movie</a></u><br>
+                                    <u><a href="P_Hand.html" target="_blank" title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag6">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/DRC/icon.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>An integrated system for real-time Model Predictive Control of humanoid robots
+                                    </h3>
+                                    Tom Erez, Kendall Lowrey, Yuval Tassa, Vikash Kumar, Svetoslav Kolev, Emanuel
+                                    Todorov
+                                    <br>Humanoids 2013
+                                    <br><u><a href="Projects/DRC/DRC.pdf">Paper</a></u>,
+                                    <a href="http://www.youtube.com/embed/gasR7b6eT7g?HD=1;showinfo=0"
+                                        class="html5lightbox" data-group="DRCgroup" data-fullscreenmode="true"
+                                        data-autoslide="true" data-thumbnail="Projects/DRC/icon.jpg"
+                                        title="An integrated system for real-time Model Predictive Control of humanoid robots"
+                                        data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">Overview</a>,
+                                    <a href="http://www.youtube.com/embed/Jgr4TDaHZ1o?HD=1;showinfo=0"
+                                        class="html5lightbox" data-group="DRCgroup" data-fullscreenmode="true"
+                                        data-autoslide="true" data-thumbnail="Projects/DRC/Dynamic_Look_At_Icon.jpg"
+                                        title="Dynamic look at"
+                                        data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">Dynamics
+                                        look at</a>
+                                    <a href="http://www.youtube.com/embed/8lPZg0_PsXk?HD=1;showinfo=0"
+                                        class="html5lightbox" data-group="DRCgroup" data-fullscreenmode="true"
+                                        data-autoslide="true" data-thumbnail="Projects/DRC/Dynamic_Walking_Icon.jpg"
+                                        title="Dynamic walking"
+                                        data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">Dynamic
+                                        walking</a>
+                                    <a href="http://www.youtube.com/embed/lWqtW6xuAY4?HD=1;showinfo=0"
+                                        class="html5lightbox" data-group="DRCgroup" data-fullscreenmode="true"
+                                        data-autoslide="true" data-thumbnail="Projects/DRC/Hand_Tracking_Icon.jpg"
+                                        title="Dynamic hand tracking"
+                                        data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">Dynamic
+                                        tracking</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag6">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/Hand/icon(behaviorSynthesis).jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Synthesis of Complex Behaviors with Optimal Control</h3>
+                                    Todorov Emanuel, Tassa Yuval, Erez Tom, Mordatch Igor, Kulchenko Paul, Kumar Vikash
+                                    <br>Computational and Systems Neuroscience (COSYNE) 2013
+                                    <br><u><a href="Projects/Hand/Complex Behaviors(CoSyNe13).pdf">Abstract</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/jYh8ZCyS1Ow?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="Synthesis of Complex Behaviors with Optimal Control">Movie</a></u><br>
+
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <table>
+                        <col width="156">
+                        <tbody>
+                            <tr valign="top">
+                                <th colspan="2"> Virtual reality </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tag6">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/haptixVR/icon.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>MuJoCo HAPTIX: A Virtual Reality System for Hand Manipulation</h3>
+                                    Vikash Kumar and Emanuel Todorov
+                                    <br>IEEE-RAS International Conference on Humanoid Robots 2015
+                                    <br><u><a href="Projects/haptixVR/haptix_humanoids15.pdf">Paper</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/M_q_YH1aB6Q?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="MuJoCo HAPTIX: A Virtual Reality System for Hand Manipulation">Movie</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <table>
+                        <col width="156">
+                        <tbody>
+                            <tr valign="top">
+                                <th colspan="2"> Tracking & calibration </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tag4 tag6">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/kinematicExtension/icon.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Precise Calibration of Robots with small link lengths using Kinematic Extensions
+                                    </h3>
+                                    Visak Chadalavada, Vikash Kumar
+                                    <br>(Under progress)
+                                    <br><u><a href="Projects/kinematicExtension/kinematicExtension.pdf">Paper</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/F7SzQw3RI04?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="Precise Calibration of Robots with small link lengths using Kinematic Extensions">Movie</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4 tag6">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/STAC/icon.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>STAC: Simultaneous Tracking and Calibration</h3>
+                                    Tingfan Wu, Yuval Tassa, Vikash Kumar, Javier Movellan, Emanuel Todorov
+                                    <br>Humanoids 2013
+                                    <br><u><a href="Projects/STAC/STAC.pdf">Paper</a></u>, <u><a
+                                            href="Projects/STAC/STAC.mp4">Movie</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <table>
+                        <col width="156">
+                        <tbody>
+                            <tr valign="top">
+                                <th colspan="2"> Robot design </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tag4 tag8">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/Finger/icon(hand).jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>A Low-cost and Modular, 20-DOF Anthropomorphic Robotic Hand: Design, Actuation
+                                        and
+                                        Modeling</h3>
+                                    Zhe Xu, Vikash Kumar, Emanuel Todorov
+                                    <br>Humanoids 2013
+                                    <br><u><a
+                                            href="Projects/Finger/AnthromorphicRoboticHand(humanoids13).pdf">Paper</a></u>,
+                                    <u><a href="Projects/Finger/AnthromorphicRoboticHand(RSS13).mp4">Movie</a></u><br>
+                                    <u><a href="P_Finger.html" target="_blank" title="project's webpage">webpage</a></u>
+                                    <br><br>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4 tag8">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/Hand/icon_actuation.png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Fast, strong and compliant pneumatic actuation for dexterous tendon-driven hands
+                                    </h3>
+                                    Kumar Vikash, Todorov Emanuel
+                                    <br>IEEE International Conference on Robotics and Automation (ICRA) 2013
+                                    <br><u><a href="Projects/Hand/PneumaticActuationSystem(ICRA13).pdf">Paper</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/5DPrU76FbGk?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="Fast, strong and compliant pneumatic actuation for dexterous tendon-driven hands">Movie</a></u><br>
+                                    <u><a href="P_Hand.html" target="_blank" title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4 tag8">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/Finger/icon(finger).jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Design of an anthropomorphic robotic finger system with biomimetic artificial
+                                        joints
+                                    </h3>
+                                    Zhe Xhe, Kumar Vikash, Matsuoka Yoki, Todorov Emanuel
+                                    <br>IEEE International Conference on Biomedical Robotics and Biomechatronics
+                                    (BioRob)
+                                    2012
+                                    <br><u><a
+                                            href="Projects/Finger/AnthromorphicRoboticFinger(BIOROB12).pdf">Paper</a></u>,
+                                    <u><a
+                                            href="Projects/Finger/AnthromorphicRoboticFinger(BioRob12).mp4">Movie</a></u><br>
+                                    <u><a href="P_Finger.html" target="_blank" title="project's webpage">webpage</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag4 tag8">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/CognitiveRoboticArm/icon.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Self and Mutual learning in Robotic Arm, based on Cognitive systems</h3>
+                                    Kumar Vikash, Patil Chetan, Sachan Sachan
+                                    <br>International MultiConference of Engineers and Computer Scientists 2010
+                                    (Shortlisted
+                                    for Best paper Award)
+                                    <br><u><a href="Projects/CognitiveRoboticArm/CognitiveRoboticArm.pdf">Paper</a></u>,
+                                    <u><a href="http://www.youtube.com/embed/gp5C78UVrMo?HD=1;rel=0;showinfo=0"
+                                            class="html5lightbox" data-width=800 data-height=400
+                                            title="Self and Mutual learning in Robotic Arm, based on Cognitive systems">Movie</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <table>
+                        <col width="156">
+                        <tbody>
+                            <tr valign="top">
+                                <th colspan="2"> Manuscripts </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tag10 tag8">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/Hand/icon(hpp).png"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>High performance pneumatics using Model Predictive Control</h3>
+                                    Vikash Kumar, Visak CV, Emanuel Todorov
+                                    <br><u><a href="Projects/Hand/penuumaticsViaMPC.pdf">Paper</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag10 tag8">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/Thesis/icon.jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>Optimizing fuzzy multi-objective problems using fuzzy genetic algorithms and
+                                        FZDT
+                                        test functions</h3>
+                                    Kumar Vikash, Chakroborty Debjani
+                                    <br><u><a href="Projects/Thesis/FNMGA.pdf">Paper</a></u>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tag1">
+                        <table id="allTable">
+                            <col width="156">
+                            <tr valign="top">
+                                <td>
+                                    <p><img src="Projects/Finger/icon(IJRR).jpg"></p>
+                                </td>
+                                <td>
+                                    <p>
+                                    <h3>The UW Hand: A Low-cost, 20-DOF Tendon-driven Hand with Fast and Compliant
+                                        Actuation
+                                    </h3>
+                                    Zhe X, Kumar V, Todorov E.
+                                    <br><u><a href="Projects/Finger/AnthromorphicRoboticHand(IJRR13).pdf">Paper</a></u>,
+                                    <u><a href="Projects/Finger/AnthromorphicRoboticHand(RSS13).mp4">Movie</a></u>,
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;">&nbsp;</div>
+        </div>
+    </div>
+    <!-- end page -->
+    <div id="footer">
+        <div id="footer_left"></div>
+        <div id="footer_right"></div>
+        <p>&copy;2013 &nbsp;|&nbsp; Design by <b>Vikash, CSE, University of Washington, Seattle, USA</b></p>
+    </div>
 </body>
+
+<script>
+    function uncheckAll() {
+        let inputs = document.querySelectorAll('.check2');
+        for (let i = 0; i < inputs.length; i++) {
+            inputs[i].checked = false;
+        }
+        let all = document.querySelectorAll('.result');
+        all.style.display = "block";
+    }
+    const resultDiv = document.querySelector('.result');
+    const toggleButton = document.getElementById('showAllButton');
+    const contentDivs = resultDiv.querySelectorAll('.tag1, .tag2, .tag3, .tag4, .tag5, .tag6, .tag7, .tag8, .tag9, .tag10');
+
+    toggleButton.addEventListener('click', () => {
+        contentDivs.forEach(div => {
+            div.style.display = 'block';
+        });
+    });
+
+</script>
+
 </html>
