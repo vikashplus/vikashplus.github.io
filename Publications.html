@@ -30,7 +30,6 @@
         }
 
         .checkbox label::before {
-            content: "";
             display: inline-block;
             width: 16px;
             height: 16px;
@@ -1583,7 +1582,7 @@
     }
     const resultDiv = document.querySelector('.result');
     const toggleButton = document.getElementById('showAllButton');
-    const contentDivs = resultDiv.querySelectorAll('.tag1, .tag2, .tag3, .tag4, .tag5, .tag6, .tag7, .tag8, .tag9, .tag10');
+    const contentDivs = resultDiv.querySelectorAll('.awards, .FM, .universalAgent, .myo, .algo, .hardware, .benchmark, .dexman');
 
     toggleButton.addEventListener('click', () => {
         contentDivs.forEach(div => {
