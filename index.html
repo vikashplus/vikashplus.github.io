@@ -13,7 +13,7 @@
 	<!-- Reference to html5gallery.js -->
 	<script type="text/javascript" src="html5gallery/jquery.js"></script>
 	<script type="text/javascript" src="html5gallery/html5lightbox.js"></script>
-	<!--<script type="text/javascript" src="html5gallery/html5gallery.js"></script>-->
+	<script type="text/javascript" src="html5gallery/html5gallery.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44241506-1"></script>
@@ -52,17 +52,42 @@
 <!-- start page -->
 <div id="page">
 	<div id="page-bg">
-
-		<div id="page-content">
 		<br>
-		<!--<h1 class="title">Video Gallery</h2>-->
-			<h3><u>(Click icons to play videos)</u></h3>
+		<div id="page-content">
+			<h2 class="title">Research</h2>
+			<p align="justify">My research focuses on understanding the fundamentals of embodied movement across biological, digital, and electromechanical systems. I am interested in building artificial beings—both digital and physical—that are indistinguishable from humans in their appearance, spatial reasoning, and behavioral intelligence.</p>
+
+			<p align="justify">I leverage tools from Machine Learning, Biomechanics, Robotics, and Optimal Control to design sample-efficient algorithms that scale to deliver embodied abilities surpassing human-level dexterity and agility. I strongly believe its possible to realize artificial agengts indistinguishable from humans in our lifetime.</p>
 		</div>
-		<br>
 
-		<div id="page-content">
+			<!-- <div class="titlepic" style="width: 360;"> -->
+			<div class="titlepic" style="width: 240px; border: transparent; background-color: transparent;">
+				<div style="display:none;margin:0 auto;" class="html5gallery" data-autoslide="true" data-autoplayvideo="false"  data-skin="light" data-slideshowinterval="4000" data-slideshadow="true" data-showcarousel="true" data-responsive="true" data-responsivefullscreen="false" data-height="300" data-resizemode="fit" data-titleautohide="false" data-showimagetoolbox="always"  data-showfullscreenbutton="true" data-showsocialmedia="false">
+
+				<h2>Dex Man</h2>
+					<!-- Add images to Gallery -->
+					<a href="Projects/Hand/Adroit-platform-large.jpg">	<img src="Projects/Hand/Adroit-platform-small.jpg" 	alt="Adroit Manipulation Platform"></a>
+
+
+					<a href="Projects/Hand/Adroit-overview-large.jpg">	<img src="Projects/Hand/Adroit-overview-small.jpg" 	alt="Adroit overview"></a>
+
+					<a href="Projects/Hand/MCL_Actuation_Box.png">		<img src="Projects/Hand/MCL_Actuation_Box.png" 		alt="Adroit hand with actuation unit"></a>
+					<a href="Projects/Hand/MCL_Actuation.png">			<img src="Projects/Hand/MCL_Actuation.png" 			alt="Adroit Hand-muscle actuator unit"></a>
+
+					<a href="Projects/Hand/Adroit-simulator-large.jpg">	<img src="Projects/Hand/Adroit-simulator-small.jpg" alt="Adroit simulator"></a>
+
+					<a href="Projects/Hand/Adroit-ceiling-large.jpg">	<img src="Projects/Hand/Adroit-ceiling-small.jpg" 	alt="Adroit ceiling mount"></a>
+					<a href="Projects/Hand/Adroit-table-large.jpg">	<img src="Projects/Hand/Adroit-table-small.jpg" 		alt="Adroit table mount"></a>
+
+					<!-- Add Youtube video to Gallery -->
+					<!-- <a href="http://www.youtube.com/embed/5DPrU76FbGk?HD=1;rel=0;showinfo=0" data-poster="Projects/Hand/Adroit-humanHand-large.jpg"> <img src="Projects/Hand/Adroit-humanHand-small.jpg" alt="Adroit capibilities"></a>
+					<a href="Projects/Hand/BehaviourSynthesis(Manipulation&Typing).mp4" data-poster="Projects/Hand/Adroit-typing-large.jpg"> <img src="Projects/Hand/Adroit-typing-small.jpg" alt="Adroit behaviors"></a> -->
+				</div>
+			</div><br>
+
+		<div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
 		<h2 class="title">Dexterous Manipulation</h2>
-			<div id="video">
+			<div id="video" style="text-align: left;">
 
 				<div class="tile">
 					<a href="https://tonyzhaozh.github.io/aloha/resources/teleop_all.mp4" class="html5lightbox"  data-group="DMGroup" data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/icons/aloha.png" title="Fine-Grained Bimanual Manipulation."
@@ -102,9 +127,13 @@
 			</div>
 		</div>
 
-		<div id="page-content">
-		<h2 class="title">Foundation Models for Robot Learning</h2>
-			<div id="video">
+
+		<div id="page-content" style="width: 170px; height: 150px; overflow: hidden; text-align: center;">
+			<h2 class="title">Foundation Models for Robot Learning</h2>
+				<div id="video" style="text-align: left;">
+		<!-- <div id="page-content"> -->
+		<!-- <h2 class="title">Foundation Models for Robot Learning</h2> -->
+			<!-- <div id="video"> -->
 
 				<div class="tile">
 					<a href="http://www.youtube.com/embed/l_N1SKFJYMk?HD=1;rel=0;showinfo=0" class="html5lightbox"  data-group="FMGroup" data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/icons/R3M.png" title="R3M: A Universal Visual Representation for Robot Manipulation"
