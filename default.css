@@ -119,7 +119,7 @@ td h3 {
 
 /* =========== Menu ===========*/
 #menu {
-	width: 80%; min-width: 700px;
+	width: 80%; min-width: 800px;
 	height: 39px;
 	margin: 0 auto;
 	background: #111111 url(images/img02.gif) repeat-x;
@@ -158,7 +158,7 @@ td h3 {
 /* =========== Page ===========*/
 
 #page {
-	width: 80%; min-width: 700px;
+	width: 80%; min-width: 800px;
 	position: relative;
 	background: #FFFFFF;
 	height: 85%;	min-height: 50px;
@@ -331,7 +331,7 @@ margin-right: auto
 /* =========== Footer =========== */
 
 #footer {
-	width: 80%; min-width: 700px;
+	width: 80%; min-width: 800px;
 	height: 20px;
 	margin: 0 auto;
 	padding: 0px 0;
