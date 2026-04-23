@@ -814,6 +814,11 @@ td h3 {
   .project-grid          { grid-template-columns: repeat(2, 1fr); }
   #news                  { width: 100%; min-width: unset; }
   .hero-project-link     { top: 10px; right: 12px; }
+  /* Achievements: 2-per-row on mobile so text isn't clipped */
+  .hero .achievements    { flex-wrap: wrap; padding: 0; }
+  .achievement-item      { flex: 0 0 50%; border-right: none; border-bottom: 1px solid rgba(255,255,255,.06); }
+  .achievement-val       { font-size: 13px; }
+  .achievement-label     { font-size: 9px; white-space: normal; }
   /* Publication tables: stack thumbnail above text on narrow screens */
   #allTable              { display: block; }
   #allTable tr           { display: flex; flex-direction: column; }
