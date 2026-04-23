@@ -161,6 +161,13 @@ ul { list-style: disc; }
   overflow: auto;
 }
 
+#page-content img.right {
+  float: right;
+  max-width: 180px;
+  height: auto;
+  margin: 0 0 12px 16px;
+}
+
 /* =========== Hero Video =========== */
 
 .hero {
@@ -243,6 +250,7 @@ ul { list-style: disc; }
   letter-spacing: 1.8px;
   text-transform: uppercase;
   margin: 0 0 14px;
+  text-shadow: 0 1px 8px rgba(0,0,0,.8);
 }
 
 .hero h1 {
@@ -251,12 +259,14 @@ ul { list-style: disc; }
   letter-spacing: -1.2px;
   margin: 0 0 18px;
   line-height: 1.15;
+  text-shadow: 0 2px 4px rgba(0,0,0,.6), 0 4px 24px rgba(0,0,0,.5);
 }
 
 .hero-affil {
   font-size: .9em;
   color: rgba(255,255,255,.65);
   margin: 0 0 24px;
+  text-shadow: 0 1px 8px rgba(0,0,0,.7);
 }
 
 .hero-affil strong { color: rgba(255,255,255,.88); }
@@ -781,8 +791,10 @@ td h3 {
 
 @media (max-width: 900px) {
   #logo h1         { padding: 14px 20px; font-size: 1.25em; }
+  #menu ul         { flex-wrap: wrap; }
   #menu a          { padding: 11px 14px; font-size: .8em; }
   #page-content    { padding: 20px; }
+  #page-content img { max-width: 100%; height: auto; }
   .hero            { height: calc(100vh - 88px); }
   .hero h1         { font-size: 2em; }
   .hero-inner      { padding: 0 20px 32px; }
@@ -802,4 +814,11 @@ td h3 {
   .project-grid          { grid-template-columns: repeat(2, 1fr); }
   #news                  { width: 100%; min-width: unset; }
   .hero-project-link     { top: 10px; right: 12px; }
+  /* Publication tables: stack thumbnail above text on narrow screens */
+  #allTable              { display: block; }
+  #allTable tr           { display: flex; flex-direction: column; }
+  #allTable td           { display: block; width: 100% !important; }
+  #allTable td:first-child { text-align: center; }
+  #allTable td img       { max-width: 120px; height: auto; }
+  #menu ul               { flex-wrap: wrap; }
 }
