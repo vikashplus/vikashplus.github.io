@@ -1,22 +1,20 @@
-<!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"-->
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Vikash Kumar: Senior Research Scientist in Robotics and Embodied AI</title>
-    <meta name="keywords" content="Robotics, Embodied AI, Hand-Manipulation, ADROIT, Hand, Machine Learning" />
-    <meta name="description"
-        content="Senior Research Scientist in Robotics and Embodied Artificial Intelligence, with specialization in dexterous hand manipulation. He is broadly interested in developing artificial agents that are cheap, portable and capable of exhibiting complex behaviors in unknown situations. His current focus is towards solving contact rich dexterous manipulation with free objects. He finished his PhD under Prof. Emanuel Todorov and Prof. Sergey Levine at University of Washington where he developed ADROIT - a dexterous manipulation platform." />
-    <link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash Kumar — Embodied AI &amp; Robotics</title>
+    <meta name="keywords" content="Robotics, Embodied AI, Dexterous Manipulation, ADROIT, MyoSuite, RoboHive, Machine Learning, MuJoCo">
+    <meta name="description" content="Vikash Kumar — CMU Adjunct Professor, former Sr. Research Scientist at FAIR–Meta AI, Google Brain, and OpenAI. Creator of MyoSuite &amp; RoboHive. Pioneering embodied AI and dexterous robotic manipulation.">
     <link rel="shortcut icon" href="images/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="default.css" rel="stylesheet" type="text/css" media="screen">
+    <!-- GLightbox: modern HTML5 lightbox, replaces deprecated html5lightbox (Flash) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 
-    <!-- Reference to html5gallery.js -->
-    <script type="text/javascript" src="html5gallery/jquery.js"></script>
-    <script type="text/javascript" src="html5gallery/html5lightbox.js"></script>
-    <script type="text/javascript" src="html5gallery/html5gallery.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44241506-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -24,880 +22,977 @@
         gtag('js', new Date());
         gtag('config', 'UA-44241506-1');
     </script>
-    <style>
-        .text-wrapper {
-            white-space: normal;
-            /* Ensures the text wraps normally */
-            overflow: auto;
-            /* Hides the overflow */
-            text-overflow: ellipsis;
-            /* Adds ellipsis (...) if the text overflows */
-            display: -webkit-box;
-            /* Needed for limiting lines */
-            -webkit-line-clamp: 2;
-            /* Limits the text to 2 lines */
-            -webkit-box-orient: vertical;
-            /* Sets vertical orientation for line clamp */
-        }
-    </style>
-
 </head>
-
 <body>
-    <!-- start header -->
-    <div id="logo">
-        <h1>
-            <a href="index.html">Vikash Kumar &nbsp; </a>
-            <a href="https://twitter.com/vikashplus"><img src="images/twitter-50.png" height="20" alt="Twitter"></a>
-            <a href="https://www.youtube.com/@vikashplus"><img src="images/youtube-50.png" height="20"
-                    alt="Twitter"></a>
-            <a href="https://github.com/vikashplus"><img src="images/github-50.png" height="20" alt="Github"></a>
-            <a href="https://scholar.google.com/citations?user=lS96SqoAAAAJ"><img src="images/scholar-30.png"
-                    height="20" alt="Google Scholar"></a>
-        </h1>
-    </div>
-    <div id="menu">
-        <ul>
-            <li class="current_page_item"><a style="border-left:0px" href="index.html">Highlights</a></li>
-            <li><a href="news.html">Impacts</a></li>
-            <li><a href="Publications.html">Publications</a></li>
-            <li><a href="Thesis.html">Thesis</a></li>
-            <li><a href="Resume.html">CV / Bio</a></li>
-            <li><a href="AboutMe.html">About me</a></li>
-        </ul>
-    </div>
 
-    <!-- end header -->
-    <!-- start page -->
-    <div id="page">
-        <div id="page-bg">
-            <br>
-            <div id="page-content">
-                <p align="justify">My research focuses on understanding the fundamentals of embodied movement across
-                    biological, digital, and electromechanical systems. I am interested in building artificial
-                    beings—both digital and physical—that are indistinguishable from humans in their appearance, spatial
-                    reasoning, and behavioral intelligence.</p>
+<!-- ===== HEADER ===== -->
+<div id="logo">
+    <h1>
+        <a href="index.html">Vikash Kumar</a>
+        <a href="https://twitter.com/vikashplus" title="Twitter / X"><img src="images/twitter-50.png" height="18" alt="Twitter"></a>
+        <a href="https://www.youtube.com/@vikashplus" title="YouTube"><img src="images/youtube-50.png" height="18" alt="YouTube"></a>
+        <a href="https://github.com/vikashplus" title="GitHub"><img src="images/github-50.png" height="18" alt="GitHub"></a>
+        <a href="https://scholar.google.com/citations?user=lS96SqoAAAAJ" title="Google Scholar"><img src="images/scholar-30.png" height="18" alt="Google Scholar"></a>
+        <a href="https://www.linkedin.com/in/vikash-kumar-148671284/" title="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" class="social-icon" aria-label="LinkedIn"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+    </h1>
+</div>
 
-                <p align="justify">I leverage tools from Machine Learning, Biomechanics, Robotics, and Optimal Control
-                    to design sample-efficient algorithms that scale to deliver embodied abilities surpassing
-                    human-level dexterity and agility. I strongly believe its possible to realize artificial agengts
-                    indistinguishable from humans in our lifetime.</p>
+<div id="menu">
+    <ul>
+        <li class="current_page_item"><a href="index.html">Highlights</a></li>
+        <li><a href="news.html">Impacts</a></li>
+        <li><a href="Publications.html">Publications</a></li>
+        <li><a href="Thesis.html">Thesis</a></li>
+        <li><a href="Resume.html">CV / Bio</a></li>
+        <li><a href="AboutMe.html">About me</a></li>
+    </ul>
+</div>
+
+<!-- ===== HERO VIDEO ===== -->
+<div class="hero">
+    <div class="hero-video-bg">
+        <iframe id="hero-iframe"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
+        <video id="hero-video" muted playsinline></video>
+        <div class="hero-video-blocker"></div>
+    </div>
+    <a id="hero-project-link" href="#" target="_blank" class="hero-project-link">↗ Project Page</a>
+    <button class="hero-next-btn" id="hero-next-btn" title="Next video">&#8250;</button>
+    <div class="hero-video-overlay">
+        <div class="hero-inner">
+            <p class="hero-tagline">Embodied AI &nbsp;·&nbsp; Dexterous Robotics &nbsp;·&nbsp; Machine Learning</p>
+            <h1>Building Artificial Beings<br>Indistinguishable from Humans</h1>
+            <p class="hero-affil">
+                Co-Foudner, CEO <strong>Myolab.ai</strong> <a href="https://myolab.ai/">↗</a> &nbsp;·&nbsp;
+                Adjunct Professor, CMU Robotics Institute &nbsp;·&nbsp;
+                Previously Sr. Research Scientist at <strong>FAIR–Meta AI</strong>, <strong>Google Brain</strong>, <strong>OpenAI</strong>
+            </p>
+        </div>
+        <div class="achievements">
+            <div id="hero-progress" class="hero-progress"></div>
+            <div class="achievement-item">
+                <div class="achievement-val">CoRL '24</div>
+                <div class="achievement-label">Early Career Keynote</div>
             </div>
-            <div id="page-content" style="text-align: left;">
+            <div class="achievement-item">
+                <div class="achievement-val">MuJoCo</div>
+                <div class="achievement-label">Founding Member</div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-val">MyoSuite</div>
+                <div class="achievement-label">Lead Creator</div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-val">RoboHive</div>
+                <div class="achievement-label">Lead Creator</div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-val">ICRA '24</div>
+                <div class="achievement-label">Best Paper Award</div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-val">NYT &middot; Wired &middot; IEEE</div>
+                <div class="achievement-label">Media Coverage</div>
+            </div>
+            <div class="hero-scroll-hint">&#8964;</div>
+        </div>
+    </div>
+</div>
 
-                <hr>
-                <h3 class="title text-wrapper"><b>Recent news</b></h3>
-                <ul>
-                    <li style="color: red;">[Nov 08th] Honored with <b>Early Career Keynote</b> at <a href="https://2024.corl.org/program/speakers">CoRL 2024, Munich</a> <a href="https://www.youtube.com/watch?v=8Wu9nGKMJNg&t=341s">(video)</a></li>
-                    <li style="color: red;">[Nov 04th] Invited talk at <a href="https://sites.google.com/view/robot-learning-symposium-tuda">Next-Gen Robot Learning Symposium, TU Darmstadt</a></li>
-                    <li style="color: red;">[Nov 05th] Invited talk at <a href="https://wcbm-workshop.github.io/#speaker">WCBM workshop</a></li>
-                    <li style="color: red;">[Aug 18th] Honored with "<a href="https://www.linkedin.com/feed/update/urn:li:activity:7255484289721479168/">Young Alumni Achiever's Award</a>" from <a href="https://www.iitkgp.ac.in/">Indian Institute of Technology, Kharagpur</a></li>
-                </ul>
-                <hr>
-                <h3 class="title text-wrapper">Video highlights</h3>
-                <br>
-                <!-- <hr> -->
+<!-- ===== RECENT HIGHLIGHTS ===== -->
+<div class="news-section">
+    <h3>Recent Highlights</h3>
+    <ul class="news-list">
+        <li>
+            <span class="news-tag keynote">Organizing Chair</span>
+            <span>Simulated Bodies Conference at <a href="https://www.janelia.org/">Jenelia Research Campus</a> &mdash; <a href="https://www.janelia.org/you-janelia/conferences/simulated-bodies-whole-body-biomechanical-models-0">see website ↗</a></span>
+        </li>
+        <li>
+            <span class="news-tag keynote">Keynote</span>
+            <span>Honored with <strong>Early Career Keynote</strong> at <a href="https://2024.corl.org/program/speakers">CoRL 2024, Munich</a> &mdash; <a href="https://www.youtube.com/watch?v=8Wu9nGKMJNg&t=341s">watch recording ↗</a></span>
+        </li>
+        <li>
+            <span class="news-tag award">Award</span>
+            <span><strong>Young Alumni Achiever's Award</strong> from <a href="https://www.iitkgp.ac.in/">IIT Kharagpur</a> &mdash; <a href="https://www.linkedin.com/feed/update/urn:li:activity:7255484289721479168/">see post ↗</a></span>
+        </li>
+        <li>
+            <span class="news-tag talk">Talk</span>
+            <span>Invited talk at <a href="https://sites.google.com/view/robot-learning-symposium-tuda">Next-Gen Robot Learning Symposium, TU Darmstadt</a></span>
+        </li>
+        <li>
+            <span class="news-tag talk">Talk</span>
+            <span>Invited talk at <a href="https://wcbm-workshop.github.io/#speaker">Whole-Body Control &amp; Motion Workshop (WCBM)</a></span>
+        </li>
+    </ul>
+</div>
 
-                <div style="display: flex;">
+<!-- ===== RESEARCH STATEMENT ===== -->
+<div class="research-statement">
+    <span class="rs-label">Research Vision</span>
+    <p>My research focuses on understanding the fundamentals of embodied movement across biological, digital, and electromechanical systems. I am interested in building artificial beings—both digital and physical—that are indistinguishable from humans in their appearance, spatial reasoning, and behavioral intelligence.</p>
+    <p>I leverage tools from Machine Learning, Biomechanics, Robotics, and Optimal Control to design sample-efficient algorithms that scale to deliver embodied abilities surpassing human-level dexterity and agility. I strongly believe it's possible to realize artificial agents indistinguishable from humans in our lifetime.</p>
+</div>
 
-                    <!-- Neuro Muscular -->
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title">Human-Embodied Intelligence</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="https://www.youtube.com/watch?v=K440gj1w9Vs" class="html5lightbox"  data-group="MyoGroup" data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/icons/myosuite.png" title="MyoSuite: contact-rich framework for musculoskeletal motor control"
-                                data-description="<a href='https://sites.google.com/view/myosuite' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/myosuite.png" alt="MyoSuite - contact-rich framework for musculoskeletal motor control">
-                                    </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://www.youtube.com/watch?v=qVBRsGD9aIE" class="html5lightbox"  data-group="MyoGroup" data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/icons/myodex.png" title="MyoDex: Generalizable Representations for Dexterous Physiological Manipulation"
-                                data-description="<a href='https://sites.google.com/view/myodex' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/myodex.png" alt="MyoDex: Representations for Dexterous Physiological Manipulation">
-                                    </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://www.youtube.com/watch?v=kWSCkXLDDn0" class="html5lightbox"  data-group="MyoGroup" data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/icons/sar.png" title="SAR: Generalization of Dexterity via Synergistic Action Representation"
-                                data-description="<a href='https://sites.google.com/view/sar-rl' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/sar.png" alt="SAR: Generalization of Dexterity via Synergistic Action Representation">
-                                    </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://www.youtube.com/watch?v=a2GWNxvySrc" class="html5lightbox"
-                                    data-group="MyoGroup" data-fullscreenmode="true" data-autoslide="true"
-                                    data-thumbnail="Projects/icons/myochal22.png"
-                                    title="MyoChallenge 2022: Learning contact-rich manipulation using a musculoskeletal hand"
-                                    data-description="<a href='https://sites.google.com/view/myosuite/myochallenge/myochallenge-2022' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/myochal22.png" alt="MyoChallenge 2022: Learning contact-rich manipulation using a musculoskeletal hand">
-                                </a>
-                            </div>
-                        </div>
+<!-- ===== RESEARCH SECTIONS ===== -->
+<div class="research-sections">
+<h2 class="rs-label" style="margin-top:0;">Video Highlights <a href="Publications.html" style="font-weight:400;text-transform:none;letter-spacing:0;font-size:1em;">(see publications ↗ for full list)</a></h2>
+<br>
+    <!-- Human-Embodied Intelligence -->
+    <div class="research-section">
+        <h2 class="section-title">Human-Embodied Intelligence</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=K440gj1w9Vs" class="glightbox"
+                   data-gallery="MyoGroup"
+                   data-title="MyoSuite: contact-rich framework for musculoskeletal motor control"
+                   data-description="<a href='https://sites.google.com/view/myosuite' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/myosuite.png" alt="MyoSuite">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
                     </div>
-
-
-                    <!-- Dexterous Manipulation -->
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title">Dexterous<br>Manipulation</h4>
-                        <div id="video" style="text-align: left;">
-                            <!-- content of Dexterous Manipulation -->
-                            <div class="tile">
-                                <a href="https://tonyzhaozh.github.io/aloha/resources/teleop_all.mp4" class="html5lightbox"
-                                    data-group="DMGroup" data-fullscreenmode="true" data-autoslide="true"
-                                    data-thumbnail="Projects/icons/aloha.png" title="Fine-Grained Bimanual Manipulation."
-                                    data-description="<a href='https://tonyzhaozh.github.io/aloha/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/aloha.png"
-                                        alt="Fine-Grained Bimanual Manipulation with Low-Cost Hardware">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://taochenshh.github.io/projects/files/visual_dexterity/visual_dexterity_teaser.mp4"
-                                    class="html5lightbox" data-group="DMGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/visualDex.png"
-                                    title="Visual Dexterity: In-hand Dexterous Manipulation from Depth."
-                                    data-description="<a href='https://taochenshh.github.io/projects/visual-dexterity' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/visualDex.png"
-                                        alt="Visual Dexterity: In-hand Dexterous Manipulation from Depth">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/vxjvS5jATZ0?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="DMGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/avail.png"
-                                    title="Dexterous Manipulation from Images: Autonomous Real-World RL via Substep Guidance."
-                                    data-description="<a href='https://sites.google.com/view/dexterous-avail' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/avail.png" alt="Projects/icons/avail.png"
-                                        title="Dexterous Manipulation from Images: Autonomous Real-World RL via Substep Guidance.">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/sKtimHlF7As?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="DMGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/mtrf.png"
-                                    title="Reset-Free Reinforcement Learning via Multi-Task Learning."
-                                    data-description="<a href='https://sites.google.com/view/mtrf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/mtrf.png"
-                                        alt="Reset-Free Reinforcement Learning via Multi-Task Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://www.youtube.com/embed/IWgWGyOYT7Q?rel=0&amp;start=107"
-                                    class="html5lightbox" data-group="DMGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-slideinterval="15000"
-                                    data-thumbnail="Projects/icons/pddm.jpg" title="Planning with Deep Dynamics Models"
-                                    data-description="<a href='https://sites.google.com/view/pddm' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/pddm.jpg" alt="Planning with Deep Dynamics Models">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/bD5z1I1TU3w?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="DMGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/handRL/icon.jpg"
-                                    title="Optimal Control with Learned Local Models: Application to Dexterous Manipulation"
-                                    data-description="<a href='Projects/handRL/handRL.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/handRL/icon.jpg" alt="Adroit Manipulation Platform">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Foundation Model for RL -->
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Foundation Models for Robot Learning</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/l_N1SKFJYMk?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="FMGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/R3M.png"
-                                    title="R3M: A Universal Visual Representation for Robot Manipulation"
-                                    data-description="<a href='https://sites.google.com/view/robot-r3m/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/R3M.png"
-                                        alt="R3M: A Universal Visual Representation for Robot Manipulation">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://penn-pal-lab.github.io/LIV/static/liv_video.mp4" class="html5lightbox"
-                                    data-group="FMGroup" data-fullscreenmode="true" data-autoslide="true"
-                                    data-thumbnail="Projects/icons/liv.png"
-                                    title="LIV: Language-Image Representations and Rewards for Robotic Control."
-                                    data-description="<a href='https://penn-pal-lab.github.io/LIV/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/liv.png"
-                                        alt="LIV: Language-Image Representations and Rewards for Robotic Control">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://genaug.github.io/media/videos/teaser.mp4" class="html5lightbox"
-                                    data-group="FMGroup" data-fullscreenmode="true" data-autoslide="true"
-                                    data-thumbnail="Projects/icons/genaug.png"
-                                    title="GenAug: Retargeting behaviors to unseen situations via Generative Augmentation."
-                                    data-description="<a href='https://genaug.github.io/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/genaug.png"
-                                        alt="GenAug: Retargeting behaviors to unseen situations via Generative Augmentation">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/rzgW1SOyVso?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="FMGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/vip.png"
-                                    title="VIP: Towards Universal Visual Reward and Representation"
-                                    data-description="<a href='https://sites.google.com/view/vip-rl' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/vip.png"
-                                        alt="VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training">
-
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://lh5.googleusercontent.com/p8R2BR6VVkAoahp8qKmzxskxIJt76sClD6MPG0hKSf4LcZ_kPYjDa7057AijUHhNTeg88Kgl5Xrbs0lNzHQGcy8KUJv9E12Ps9KQ3w6HJcIDv--nDAj_doUk1EOGRg-eVg=w1280"
-                                    class="html5lightbox" data-group="FMGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/zest.png"
-                                    title="Can Foundation Models Perform Zero-Shot Task Specification?"
-                                    data-description="<a href='https://sites.google.com/view/zestproject' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/zest.png"
-                                        alt="Can Foundation Models Perform Zero-Shot Task Specification For Robot Manipulation?">
-
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/Yj1EHvGWmRA?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="FMGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/rrl.png"
-                                    title="RRL: Resnet as representation for Reinforcement Learning"
-                                    data-description="<a href='https://sites.google.com/view/abstractions4rl' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/rrl.png"
-                                        alt="RRL: Resnet as representation for Reinforcement Learning">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Multi-Task RL -->
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Multi-Task / Hierarchical Learning</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="https://cacti-framework.github.io/teaser-vid-website.m4v"
-                                    class="html5lightbox" data-group="MTGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/cacti.png"
-                                    title="CACTI: A Framework for Scalable Multi-Task Multi-Scene Visual Imitation Learning."
-                                    data-description="<a href='https://cacti-framework.github.io/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/cacti.png"
-                                        alt="CACTI: A Framework for Scalable Multi-Task Multi-Scene Visual Imitation Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/sKtimHlF7As?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="MTGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/mtrf.png"
-                                    title="Reset-Free Reinforcement Learning via Multi-Task Learning."
-                                    data-description="<a href='https://sites.google.com/view/mtrf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/mtrf.png"
-                                        alt="Reset-Free Reinforcement Learning via Multi-Task Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://relay-policy-learning.github.io/assets/mp4/successtasks_RPL.mp4"
-                                    class="html5lightbox" data-group="MTGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/relayRL.png"
-                                    title="Relay Policy Learning."
-                                    data-description="<a href='https://relay-policy-learning.github.io/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/relayRL.png" alt="Relay Policy Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://learning-from-play.github.io/assets/mp4/8tasks1920x540.mp4"
-                                    class="html5lightbox" data-group="MTGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/lmp.png" title="Learning From Play"
-                                    data-description="<a href='https://learning-from-play.github.io/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/lmp.png" alt="Learning From Play">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="Projects/gifs/dclaw_multiTask.gif?group=MT" class="html5lightbox" data-width="1024"
-                                    data-height="368" data-group="MTGroup" data-fullscreenmode="true" data-autoslide="true"
-                                    data-thumbnail="Projects/icons/dclaw_multiTask.png" title="Manipulation via Multi-Task"
-                                    data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/dclaw_multiTask.png" alt="Multi-Task Manipulation">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Model Based RL -->
-                <div style="display: flex;">
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Model based<br>learning</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="https://www.youtube.com/embed/IWgWGyOYT7Q?rel=0&amp;start=111"
-                                    class="html5lightbox" data-group="modelBasedGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-slideinterval="15000"
-                                    data-thumbnail="Projects/icons/pddm.jpg" title="Planning with Deep Dynamics Models"
-                                    data-description="<a href='https://sites.google.com/view/pddm' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/pddm.jpg" alt="Planning with Deep Dynamics Models">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="Projects/gifs/dads.gif?group=modelbased" class="html5lightbox"
-                                    data-group="modelBasedGroup" data-fullscreenmode="true" data-width="1200"
-                                    data-height="450" data-autoslide="true" data-thumbnail="Projects/icons/dads.png"
-                                    title="Dynamics Aware Discovery of Skills"
-                                    data-description="<a href='https://sites.google.com/corp/view/dads-skill' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/dads.png" alt="Dynamics Aware Discovery of Skills">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/TH1J0v5pPkA?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="modelBasedGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/trass.png"
-                                    title="Time Reversal as Self-Supervision"
-                                    data-description="<a href='https://sites.google.com/corp/view/time-reversal' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/trass.png" alt="Time Reversal as Self-Supervision">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://www.youtube.com/embed/E0wmO6deqjo?rel=0&amp;start=107"
-                                    class="html5lightbox" data-group="modelBasedGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/handRL/icon2.jpg"
-                                    title="Learning Dexterous Manipulation Policies from Experience and Imitation"
-                                    data-description="<a href='Projects/handRL/handRL2.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/handRL/icon2.jpg"
-                                        alt="Adroit Manipulation Platform picking up objects">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/bD5z1I1TU3w?HD=1;rel=0;showinfo=0;start=0"
-                                    class="html5lightbox" data-group="modelBasedGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/handRL/icon.jpg"
-                                    title="Optimal Control with Learned Local Models: Application to Dexterous Manipulation"
-                                    data-description="<a href='Projects/handRL/handRL.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/handRL/icon.jpg" alt="Adroit Manipulation Platform">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Model-Free<br>Learning</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/sKtimHlF7As?HD=1;rel=0;showinfo=0;start=0"
-                                    class="html5lightbox" data-group="modelFreeGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/mtrf.png"
-                                    title="Reset-Free Reinforcement Learning via Multi-Task Learning."
-                                    data-description="<a href='https://sites.google.com/view/mtrf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/mtrf.png"
-                                        alt="Reset-Free Reinforcement Learning via Multi-Task Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/jJtBll8l_OM?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="modelFreeGroup" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/RLwithDemo/icon.jpg"
-                                    title="Demo Augmented Policy Gradients"
-                                    data-description="<a href='https://sites.google.com/view/deeprl-dexterous-manipulation' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/RLwithDemo/icon.jpg" alt="Demo Augmented Policy Gradients">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/mpGK4zbdi6g?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="modelFreeGroup" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/icons/dclaw.png"
-                                    title="RL: Efficient, General & Low-Cost"
-                                    data-description="<a href='https://sites.google.com/corp/view/deeprl-handmanipulation' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/dclaw.png" alt="RL: Efficient, General & Low-Cost">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/O4WV1WP6bTk?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="modelFreeGroup" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/icons/r3l.png"
-                                    title="Ingredients of real world RL"
-                                    data-description="<a href='https://sites.google.com/view/realworld-rl' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/r3l.png" alt="Ingredients of real world RL">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/G6C3icxjUtg?HD=1;rel=0;showinfo=0;id=modelFreeGroup"
-                                    class="html5lightbox" data-group="modelFreeGroup" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/icons/robel.png"
-                                    title="Robotics Benchmarks for Learning"
-                                    data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/robel.png" alt="Robotics Benchmarks for Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="Projects/gifs/dkitty_coordinate.gif?group=modelFree" class="html5lightbox"
-                                    data-width="768" data-height="432" data-group="modelFreeGroup"
-                                    data-fullscreenmode="true" data-autoslide="false"
-                                    data-thumbnail="Projects/icons/hsim2real.jpg" title="Manipulation via Locomotion"
-                                    data-description="<a href='https://sites.google.com/view/manipulation-via-locomotion' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/hsim2real.jpg" alt="Manipulation via Locomotion">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Supervised<br>Learning</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="https://relay-policy-learning.github.io/assets/mp4/successtasks_RPL.mp4?group=supervision"
-                                    class="html5lightbox" data-group="supervisionGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/relayRL.png"
-                                    title="Relay Policy Learning"
-                                    data-description="<a href='https://relay-policy-learning.github.io/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/relayRL.png" alt="Relay Policy Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://learning-from-play.github.io/assets/mp4/8tasks1920x540.mp4?group=supervision"
-                                    class="html5lightbox" data-group="supervisionGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/lmp.png" title="Learning From Play"
-                                    data-description="<a href='https://learning-from-play.github.io/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/lmp.png" alt="Learning From Play">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/jJtBll8l_OM?HD=1;rel=0;showinfo=0;group=supervision"
-                                    class="html5lightbox" data-group="supervisionGroup" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/RLwithDemo/icon.jpg"
-                                    title="Demo Augmented Policy Gradients"
-                                    data-description="<a href='https://sites.google.com/view/deeprl-dexterous-manipulation' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/RLwithDemo/icon.jpg" alt="Demo Augmented Policy Gradients">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/mpGK4zbdi6g?HD=1;rel=0;showinfo=0;group=supervision"
-                                    class="html5lightbox" data-group="supervisionGroup" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/icons/dclaw.png"
-                                    title="RL: Efficient, General & Low-Cost"
-                                    data-description="<a href='https://sites.google.com/corp/view/deeprl-handmanipulation' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/dclaw.png" alt="RL: Efficient, General & Low-Cost">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://www.youtube.com/embed/E0wmO6deqjo?rel=0&amp;start=107;group=supervision"
-                                    class="html5lightbox" data-group="supervisionGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/handRL/icon2.jpg"
-                                    title="Manipulation via Experience&Imitation"
-                                    data-description="<a href='Projects/handRL/handRL.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/handRL/icon2.jpg" alt="Manipulation via Experience&Imitation">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Reinforcement<br>Learning</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/O4WV1WP6bTk?HD=1;rel=0;showinfo=0;group=exp"
-                                    class="html5lightbox" data-group="Exp_group" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/icons/r3l.png"
-                                    title="Ingredients of real world RL"
-                                    data-description="<a href='https://sites.google.com/view/realworld-rl' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/r3l.png" alt="Ingredients of real world RL">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://www.youtube.com/embed/IWgWGyOYT7Q?rel=0&amp;start=107;group=exp"
-                                    class="html5lightbox" data-group="Exp_group" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/icons/pddm.jpg"
-                                    title="Planning with Deep Dynamics Models"
-                                    data-description="<a href='https://sites.google.com/view/pddm' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/pddm.jpg" alt="Planning with Deep Dynamics Models">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="Projects/gifs/dads.gif?group=exp" class="html5lightbox" data-group="Exp_group"
-                                    data-fullscreenmode="true" data-width="1200" data-height="450" data-autoslide="true"
-                                    data-thumbnail="Projects/icons/dads.png" title="Dynamics Aware Discovery of Skills"
-                                    data-description="<a href='https://sites.google.com/corp/view/dads-skill' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/dads.png" alt="Dynamics Aware Discovery of Skills">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/G6C3icxjUtg?HD=1;rel=0;showinfo=0;group=exp"
-                                    class="html5lightbox" data-group="Exp_group" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/icons/robel.png"
-                                    title="Robotics Benchmarks for Learning"
-                                    data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/robel.png" alt="Robotics Benchmarks for Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="Projects/gifs/dkitty_coordinate.gif?group=exp" class="html5lightbox"
-                                    data-width="768" data-height="432" data-group="Exp_group" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/icons/hsim2real.jpg"
-                                    title="Manipulation via Locomotion"
-                                    data-description="<a href='https://sites.google.com/view/manipulation-via-locomotion' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/hsim2real.jpg" alt="Manipulation via Locomotion">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/bD5z1I1TU3w?HD=1;rel=0;showinfo=0;group=exp"
-                                    class="html5lightbox" data-group="Exp_group" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/handRL/icon.jpg"
-                                    title="Optimal Control with Learned Local Models: Application to Dexterous Manipulation"
-                                    data-description="<a href='Projects/handRL/handRL.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/handRL/icon.jpg" alt="Adroit Manipulation Platform">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/2uXh8ic-gcg?HD=1;rel=0;showinfo=0;group=exp"
-                                    class="html5lightbox" data-group="Exp_group" data-fullscreenmode="true"
-                                    data-autoslide="false" data-thumbnail="Projects/icons/dnc.jpg"
-                                    title="Divide-and-Conquer Reinforcement Learning"
-                                    data-description="<a href='https://sites.google.com/view/dnc-rl/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/dnc.jpg" alt="Divide-and-Conquer Reinforcement Learning">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                </div>
-
-                <!-- Trajectory Optimization -->
-                <div style="display: flex;">
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Trajectory<br>Optimization</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/gHJhMuEJe_I?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="BSgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/Hand/icon(handManipulation).jpg"
-                                    title="Real-time behaviour synthesis for dynamic Hand-Manipulation"
-                                    data-description="<a href='P_Hand.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/Hand/icon(handManipulation).jpg" alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/gasR7b6eT7g?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="BSgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/DRC/icon.jpg"
-                                    title="An integrated system for real-time Model Predictive Control of humanoid robots"
-                                    data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/DRC/icon.jpg" alt="Adroit Manipulation Platform2">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/jYh8ZCyS1Ow?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="BSgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/Hand/icon(behaviorSynthesis).jpg"
-                                    title="Synthesis of Complex Behaviors with Optimal Control"
-                                    data-description="<a href='Projects/Hand/Complex Behaviors(CoSyNe13).pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/Hand/icon(behaviorSynthesis).jpg"
-                                        alt="Adroit Manipulation Platform2">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Adroit Manipulation Platform</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/IN7VFquI7ow?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="ADROITgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/Hand/icon.jpg"
-                                    title="ADROIT Manipulation Platform"
-                                    data-description="<a href='https://vikashplus.github.io/P_Hand.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/Hand/icon.jpg" alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Physically realistic Virtual Reality</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/M_q_YH1aB6Q?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="VRgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/haptixVR/icon.jpg"
-                                    title="Hand Manipulation in VR"
-                                    data-description="<a href='Projects/haptixVR/haptix_humanoids15.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/haptixVR/icon.jpg" alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/2qEf5TkFXpQ?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="VRgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/haptixVR/icon_mjVR.jpg"
-                                    title="Immersive Embodiment using FETCH"
-                                    data-description="<a href='https://openai.com/blog/robots-that-learn/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/haptixVR/icon_mjVR.jpg" alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/vKM7NIwPo_k?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="VRgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/haptixVR/icon_pickUp.jpg"
-                                    title="Exploring pickup strategies"
-                                    data-description="<a href='Projects/handRL/handRL2.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/haptixVR/icon_pickUp.jpg" alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Darpa Robotics Challenge (DRC)</h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/gasR7b6eT7g?HD=1;showinfo=0" class="html5lightbox"
-                                    data-group="DRCgroup" data-fullscreenmode="true" data-autoslide="true"
-                                    data-thumbnail="Projects/DRC/icon.jpg"
-                                    title="An integrated system for real-time Model Predictive Control of humanoid robots"
-                                    data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/DRC/icon.jpg" alt="Adroit Manipulation Platform">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/Jgr4TDaHZ1o?HD=1;showinfo=0" class="html5lightbox"
-                                    data-group="DRCgroup" data-fullscreenmode="true" data-autoslide="true"
-                                    data-thumbnail="Projects/DRC/Dynamic_Look_At_Icon.jpg" title="Dynamic look at"
-                                    data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/DRC/Dynamic_Look_At_Icon.jpg" alt="Adroit Manipulation Platform">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/8lPZg0_PsXk?HD=1;showinfo=0" class="html5lightbox"
-                                    data-group="DRCgroup" data-fullscreenmode="true" data-autoslide="true"
-                                    data-thumbnail="Projects/DRC/Dynamic_Walking_Icon.jpg" title="Dynamic walking"
-                                    data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/DRC/Dynamic_Walking_Icon.jpg" alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/lWqtW6xuAY4?HD=1;showinfo=0" class="html5lightbox"
-                                    data-group="DRCgroup" data-fullscreenmode="true" data-autoslide="true"
-                                    data-thumbnail="Projects/DRC/Hand_Tracking_Icon.jpg" title="Dynamic hand tracking"
-                                    data-description="<a href='P_DRC.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/DRC/Hand_Tracking_Icon.jpg" alt="Adroit Manipulation Platform2">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Robot Design -->
-                <div style="display: flex;">
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Robot<br>Design</h4>
-                        <div id="video">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/oiNdePCi_5k?HD=1;rel=0;showinfo=0;group=benchGroup"
-                                    class="html5lightbox" data-group="robotDesignGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/dmanus.png"
-                                    title="All the Feels: A dexterous hand with large area sensing"
-                                    data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/dmanus.png" alt="A dexterous hand with large area sensing">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/G6C3icxjUtg?HD=1;rel=0;showinfo=0;group=benchGroup"
-                                    class="html5lightbox" data-group="robotDesignGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/robel.png"
-                                    title="Robotics Benchmarks for Learning"
-                                    data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/robel.png" alt="Robotics Benchmarks for Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/5DPrU76FbGk?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="robotDesignGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/Hand/icon_actuation.png"
-                                    title="Fast & compliant Pneumatic Actuation system for tendon driven systems"
-                                    data-description="<a href='P_Hand.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/Hand/icon_actuation.png" alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/vXBEGwbWaIg?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="robotDesignGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/Finger/icon(hand).jpg"
-                                    title="A Low-cost and Modular, 20-DOF Anthropomorphic Robotic Hand: Design, Actuation and Modeling"
-                                    data-description="<a href='P_Finger.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/Finger/icon(hand).jpg" alt="Adroit Manipulation Platform">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/xBIAfg0EWA4?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="robotDesignGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/Finger/icon(finger).jpg"
-                                    title="Design of an anthropomorphic robotic finger system with biomimetic artificial joints"
-                                    data-description="<a href='P_Finger.html' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/Finger/icon(finger).jpg" alt="Adroit Manipulation Platform2"></a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/gp5C78UVrMo_vik?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="robotDesignGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/CognitiveRoboticArm/icon.jpg"
-                                    title="Self and Mutual learning in Robotic Arm, based on Cognitive systems"
-                                    data-description="<a href='Projects/CognitiveRoboticArm/CognitiveRoboticArm.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/CognitiveRoboticArm/icon.jpg" alt="Adroit Manipulation Platform2">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Benchmarking -->
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Benchmarking <br><br></h4>
-                        <div id="video" style="text-align: left;">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/a2GWNxvySrc?HD=1;rel=0;showinfo=0" class="html5lightbox" data-group="benchGroup"
-                                    data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/icons/myochal22.png"
-                                    title="
-                                    MyoChallenge 2022: Learning contact-rich manipulation using a musculoskeletal hand"
-                                    data-description="<a href='https://sites.google.com/view/myosuite/myochallenge/myochallenge-2022' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/myochal22.png"
-                                        alt="MyoChallenge 2022: Learning contact-rich manipulation using a musculoskeletal hand">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/xuFrdMPEX_w?HD=1;rel=0;showinfo=0" class="html5lightbox" data-group="benchGroup"
-                                    data-fullscreenmode="true" data-autoslide="true" data-thumbnail="Projects/icons/robohive.png"
-                                    title="RoboHive: A Unified Framework for Robot Learning"
-                                    data-description="<a href='https://sites.google.com/view/robohive' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/robohive.png"
-                                        alt="RoboHive: A Unified Framework for Robot Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/G6C3icxjUtg?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="benchGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/robel.png"
-                                    title="Robotics Benchmarks for Learning"
-                                    data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/robel.png" alt="Robotics Benchmarks for Learning">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/8Np3eC_PTFo?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="benchGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/icons/ingredients.jpg"
-                                    title="
-                                    Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research"
-                                    data-description="<a href='https://blog.openai.com/ingredients-for-robotics-research/' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/ingredients.jpg"
-                                        alt="
-                                        Multi-Goal Reinforcement Learning: Challenging Robotics Environments and Request for Research">
-                                </a>
-                            </div>
-                            <div class="tile">
-                                <a href="https://robot-learning.cs.utah.edu/project/benchmarking_in_hand_manipulation"
-                                    class="html5lightbox" data-group="benchGroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-width="960" data-height="600"
-                                    data-thumbnail="Projects/icons/benchmarkingInHand.png"
-                                    title="Benchmarking In-Hand Manipulation"
-                                    data-description="<a href='https://robot-learning.cs.utah.edu/project/benchmarking_in_hand_manipulation' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/icons/benchmarkingInHand.png" alt="Allegro Hand">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- BMI -->
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Brain Machine<br>Interface</h4>
-                        <div id="video">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/E-1Xm1E1bVk?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="BMIgroup" data-fullscreenmode="true"
-                                    data-autoslide="true"
-                                    data-thumbnail="Projects/Hddn/handReconstructionFromBrainRecordings.jpg"
-                                    title="Hand reconstruction from motor cortex recordings">
-                                    <img src="Projects/Hddn/handReconstructionFromBrainRecordings.jpg"
-                                        alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/BslJqSBT7Uo?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="BMIgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/GMI/Bottle_Shuffling_Arm_GMI.jpg"
-                                    title="Object repositioning using Gesture Machine Interface">
-                                    <img src="Projects/GMI/Bottle_Shuffling_Arm_GMI.jpg" alt="Adroit Manipulation Platform">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/ctAufW0d-j0?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="BMIgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/GMI/WAM_EyeGesture.jpg"
-                                    title="Close loop control with Gesture Machine Interface">
-                                    <img src="Projects/GMI/WAM_EyeGesture.jpg" alt="Adroit Manipulation Platform">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/lTFTjn1qxI0?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="BMIgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/GMI/VR_EyeGesture.jpg"
-                                    title="Arm control in VR using Gesture Machine Interface">
-                                    <img src="Projects/GMI/VR_EyeGesture.jpg" alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/hKZw6AnkH5Q?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="BMIgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/GMI/Object_Shuffle.jpg"
-                                    title="Object shuffling using Gesture Machine Interface">
-                                    <img src="Projects/GMI/Object_Shuffle.jpg" alt="Adroit Manipulation Platform2">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Tracking and Calibration-->
-                    <div id="page-content" style="width: 150px; height: 150px; overflow: hidden; text-align: center;">
-                        <h4 class="title text-wrapper">Tracking and<br>Calibration</h4>
-                        <div id="video">
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/F7SzQw3RI04?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="TnCgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/kinematicExtension/icon.jpg"
-                                    title="Precise Calibration of Robots with small link lengths using Kinematic Extensions"
-                                    data-description="<a href='Projects/kinematicExtension/kinematicExtension.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/kinematicExtension/icon.jpg" alt="Adroit Manipulation Platform1">
-                                </a>
-                            </div>
-
-                            <div class="tile">
-                                <a href="http://www.youtube.com/embed/lTPeyAJWBSw?HD=1;rel=0;showinfo=0"
-                                    class="html5lightbox" data-group="TnCgroup" data-fullscreenmode="true"
-                                    data-autoslide="true" data-thumbnail="Projects/STAC/icon.jpg"
-                                    title="STAC: Simultaneous Tracking and Calibration"
-                                    data-description="<a href='Projects/STAC/STAC.pdf' target='_blank'><h4 align='center'>(project-webpage)</h4></a>">
-                                    <img src="Projects/STAC/icon.jpg" alt="Adroit Manipulation Platform">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <div class="card-body"><p class="card-title">MyoSuite: Contact-Rich Musculoskeletal Motor Control</p></div>
+                </a>
             </div>
 
-            <div style="clear: both;">&nbsp;</div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=qVBRsGD9aIE" class="glightbox"
+                   data-gallery="MyoGroup"
+                   data-title="MyoDex: Generalizable Representations for Dexterous Physiological Manipulation"
+                   data-description="<a href='https://sites.google.com/view/myodex' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/myodex.png" alt="MyoDex">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">MyoDex: Generalizable Representations for Dexterous Physiological Manipulation</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=kWSCkXLDDn0" class="glightbox"
+                   data-gallery="MyoGroup"
+                   data-title="SAR: Generalization of Dexterity via Synergistic Action Representation"
+                   data-description="<a href='https://sites.google.com/view/sar-rl' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/sar.png" alt="SAR">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">SAR: Generalization of Dexterity via Synergistic Action Representation</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=a2GWNxvySrc" class="glightbox"
+                   data-gallery="MyoGroup"
+                   data-title="MyoChallenge 2022: Learning contact-rich manipulation using a musculoskeletal hand"
+                   data-description="<a href='https://sites.google.com/view/myosuite/myochallenge/myochallenge-2022' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/myochal22.png" alt="MyoChallenge 2022">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">MyoChallenge 2022: Contact-Rich Manipulation via Musculoskeletal Hand</p></div>
+                </a>
+            </div>
+
         </div>
     </div>
 
-	<!-- end page -->
-	<div id="footer">
-		<div id="footer_left"></div>
-		<div id="footer_right"></div>
-		<p>&copy;2013 &nbsp;|&nbsp; Design by <b>Vikash, CSE, University of Washington, Seattle, USA</b></p>
-	</div>
+    <!-- Dexterous Manipulation -->
+    <div class="research-section">
+        <h2 class="section-title">Dexterous Manipulation</h2>
+        <div class="project-grid">
 
+            <div class="project-card">
+                <a href="https://tonyzhaozh.github.io/aloha/resources/teleop_all.mp4" class="glightbox"
+                   data-gallery="DMGroup" data-type="video"
+                   data-title="Fine-Grained Bimanual Manipulation"
+                   data-description="<a href='https://tonyzhaozh.github.io/aloha/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/aloha.png" alt="ALOHA">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Fine-Grained Bimanual Manipulation with Low-Cost Hardware</p></div>
+                </a>
+            </div>
 
-    <!-- </div> -->
+            <div class="project-card">
+                <a href="https://taochenshh.github.io/projects/files/visual_dexterity/visual_dexterity_teaser.mp4" class="glightbox"
+                   data-gallery="DMGroup" data-type="video"
+                   data-title="Visual Dexterity: In-hand Dexterous Manipulation from Depth"
+                   data-description="<a href='https://taochenshh.github.io/projects/visual-dexterity' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/visualDex.png" alt="Visual Dexterity">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Visual Dexterity: In-Hand Manipulation from Depth</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=vxjvS5jATZ0" class="glightbox"
+                   data-gallery="DMGroup"
+                   data-title="Dexterous Manipulation from Images: Autonomous Real-World RL via Substep Guidance"
+                   data-description="<a href='https://sites.google.com/view/dexterous-avail' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/avail.png" alt="AVAIL">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Dexterous Manipulation from Images: Autonomous Real-World RL</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=sKtimHlF7As" class="glightbox"
+                   data-gallery="DMGroup"
+                   data-title="Reset-Free Reinforcement Learning via Multi-Task Learning"
+                   data-description="<a href='https://sites.google.com/view/mtrf' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/mtrf.png" alt="MTRF">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Reset-Free Reinforcement Learning via Multi-Task Learning</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=IWgWGyOYT7Q&start=107" class="glightbox"
+                   data-gallery="DMGroup"
+                   data-title="Planning with Deep Dynamics Models"
+                   data-description="<a href='https://sites.google.com/view/pddm' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/pddm.jpg" alt="PDDM">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Planning with Deep Dynamics Models (PDDM)</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=bD5z1I1TU3w" class="glightbox"
+                   data-gallery="DMGroup"
+                   data-title="Optimal Control with Learned Local Models: Application to Dexterous Manipulation"
+                   data-description="<a href='Projects/handRL/handRL.pdf' target='_blank'>↗ Project PDF</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/handRL/icon.jpg" alt="Dexterous Manipulation via Optimal Control">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Optimal Control with Learned Local Models: Dexterous Manipulation</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Foundation Models for Robot Learning -->
+    <div class="research-section">
+        <h2 class="section-title">Foundation Models for Robot Learning</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=l_N1SKFJYMk" class="glightbox"
+                   data-gallery="FMGroup"
+                   data-title="R3M: A Universal Visual Representation for Robot Manipulation"
+                   data-description="<a href='https://sites.google.com/view/robot-r3m/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/R3M.png" alt="R3M">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">R3M: A Universal Visual Representation for Robot Manipulation</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://penn-pal-lab.github.io/LIV/static/liv_video.mp4" class="glightbox"
+                   data-gallery="FMGroup" data-type="video"
+                   data-title="LIV: Language-Image Representations and Rewards for Robotic Control"
+                   data-description="<a href='https://penn-pal-lab.github.io/LIV/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/liv.png" alt="LIV">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">LIV: Language-Image Representations &amp; Rewards for Robotic Control</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://genaug.github.io/media/videos/teaser.mp4" class="glightbox"
+                   data-gallery="FMGroup" data-type="video"
+                   data-title="GenAug: Retargeting behaviors to unseen situations via Generative Augmentation"
+                   data-description="<a href='https://genaug.github.io/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/genaug.png" alt="GenAug">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">GenAug: Retargeting Behaviors via Generative Augmentation</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=rzgW1SOyVso" class="glightbox"
+                   data-gallery="FMGroup"
+                   data-title="VIP: Towards Universal Visual Reward and Representation"
+                   data-description="<a href='https://sites.google.com/view/vip-rl' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/vip.png" alt="VIP">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">VIP: Towards Universal Visual Reward &amp; Representation</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://lh5.googleusercontent.com/p8R2BR6VVkAoahp8qKmzxskxIJt76sClD6MPG0hKSf4LcZ_kPYjDa7057AijUHhNTeg88Kgl5Xrbs0lNzHQGcy8KUJv9E12Ps9KQ3w6HJcIDv--nDAj_doUk1EOGRg-eVg=w1280" class="glightbox"
+                   data-gallery="FMGroup" data-type="image"
+                   data-title="Can Foundation Models Perform Zero-Shot Task Specification?"
+                   data-description="<a href='https://sites.google.com/view/zestproject' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/zest.png" alt="ZEST">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Foundation Models for Zero-Shot Task Specification</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=Yj1EHvGWmRA" class="glightbox"
+                   data-gallery="FMGroup"
+                   data-title="RRL: Resnet as representation for Reinforcement Learning"
+                   data-description="<a href='https://sites.google.com/view/abstractions4rl' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/rrl.png" alt="RRL">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">RRL: ResNet as Representation for Reinforcement Learning</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Multi-Task / Hierarchical Learning -->
+    <div class="research-section">
+        <h2 class="section-title">Multi-Task / Hierarchical Learning</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://cacti-framework.github.io/teaser-vid-website.m4v" class="glightbox"
+                   data-gallery="MTGroup" data-type="video"
+                   data-title="CACTI: A Framework for Scalable Multi-Task Multi-Scene Visual Imitation Learning"
+                   data-description="<a href='https://cacti-framework.github.io/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/cacti.png" alt="CACTI">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">CACTI: Scalable Multi-Task Multi-Scene Imitation Learning</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://relay-policy-learning.github.io/assets/mp4/successtasks_RPL.mp4" class="glightbox"
+                   data-gallery="MTGroup" data-type="video"
+                   data-title="Relay Policy Learning"
+                   data-description="<a href='https://relay-policy-learning.github.io/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/relayRL.png" alt="Relay Policy Learning">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Relay Policy Learning</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://learning-from-play.github.io/assets/mp4/8tasks1920x540.mp4" class="glightbox"
+                   data-gallery="MTGroup" data-type="video"
+                   data-title="Learning From Play"
+                   data-description="<a href='https://learning-from-play.github.io/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/lmp.png" alt="Learning From Play">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Learning From Play</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="Projects/gifs/dclaw_multiTask.gif" class="glightbox"
+                   data-gallery="MTGroup" data-type="image"
+                   data-title="Manipulation via Multi-Task Learning"
+                   data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/dclaw_multiTask.png" alt="Multi-Task Manipulation">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Manipulation via Multi-Task Learning</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Model-Based Learning -->
+    <div class="research-section">
+        <h2 class="section-title">Model-Based Learning</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=IWgWGyOYT7Q&start=111" class="glightbox"
+                   data-gallery="modelBasedGroup"
+                   data-title="Planning with Deep Dynamics Models"
+                   data-description="<a href='https://sites.google.com/view/pddm' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/pddm.jpg" alt="PDDM">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Planning with Deep Dynamics Models (PDDM)</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="Projects/gifs/dads.gif" class="glightbox"
+                   data-gallery="modelBasedGroup" data-type="image"
+                   data-title="Dynamics Aware Discovery of Skills"
+                   data-description="<a href='https://sites.google.com/corp/view/dads-skill' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/dads.png" alt="DADS">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Dynamics Aware Discovery of Skills (DADS)</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=TH1J0v5pPkA" class="glightbox"
+                   data-gallery="modelBasedGroup"
+                   data-title="Time Reversal as Self-Supervision"
+                   data-description="<a href='https://sites.google.com/corp/view/time-reversal' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/trass.png" alt="TRASS">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Time Reversal as Self-Supervision</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=E0wmO6deqjo&start=107" class="glightbox"
+                   data-gallery="modelBasedGroup"
+                   data-title="Learning Dexterous Manipulation Policies from Experience and Imitation"
+                   data-description="<a href='Projects/handRL/handRL2.pdf' target='_blank'>↗ Project PDF</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/handRL/icon2.jpg" alt="Dexterous Manipulation from Experience">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Learning Dexterous Manipulation from Experience &amp; Imitation</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Model-Free Learning -->
+    <div class="research-section">
+        <h2 class="section-title">Model-Free Learning</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=jJtBll8l_OM" class="glightbox"
+                   data-gallery="modelFreeGroup"
+                   data-title="Demo Augmented Policy Gradients"
+                   data-description="<a href='https://sites.google.com/view/deeprl-dexterous-manipulation' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/RLwithDemo/icon.jpg" alt="Demo Augmented Policy Gradients">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Demo Augmented Policy Gradients</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=mpGK4zbdi6g" class="glightbox"
+                   data-gallery="modelFreeGroup"
+                   data-title="RL: Efficient, General &amp; Low-Cost"
+                   data-description="<a href='https://sites.google.com/corp/view/deeprl-handmanipulation' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/dclaw.png" alt="DClaw RL">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">RL: Efficient, General &amp; Low-Cost</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=O4WV1WP6bTk" class="glightbox"
+                   data-gallery="modelFreeGroup"
+                   data-title="Ingredients of Real-World RL"
+                   data-description="<a href='https://sites.google.com/view/realworld-rl' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/r3l.png" alt="R3L">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Ingredients of Real-World Reinforcement Learning</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=G6C3icxjUtg" class="glightbox"
+                   data-gallery="modelFreeGroup"
+                   data-title="Robotics Benchmarks for Learning"
+                   data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/robel.png" alt="ROBEL">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Robotics Benchmarks for Learning (ROBEL)</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="Projects/gifs/dkitty_coordinate.gif" class="glightbox"
+                   data-gallery="modelFreeGroup" data-type="image"
+                   data-title="Manipulation via Locomotion"
+                   data-description="<a href='https://sites.google.com/view/manipulation-via-locomotion' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/hsim2real.jpg" alt="Manipulation via Locomotion">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Manipulation via Locomotion</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=2uXh8ic-gcg" class="glightbox"
+                   data-gallery="modelFreeGroup"
+                   data-title="Divide-and-Conquer Reinforcement Learning"
+                   data-description="<a href='https://sites.google.com/view/dnc-rl/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/dnc.jpg" alt="Divide-and-Conquer RL">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Divide-and-Conquer Reinforcement Learning</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Trajectory Optimization -->
+    <div class="research-section">
+        <h2 class="section-title">Trajectory Optimization</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=gHJhMuEJe_I" class="glightbox"
+                   data-gallery="BSgroup"
+                   data-title="Real-time behaviour synthesis for dynamic Hand-Manipulation"
+                   data-description="<a href='P_Hand.html' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/Hand/icon(handManipulation).jpg" alt="Hand Manipulation">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Real-Time Behaviour Synthesis for Dynamic Hand-Manipulation</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=gasR7b6eT7g" class="glightbox"
+                   data-gallery="BSgroup"
+                   data-title="An integrated system for real-time Model Predictive Control of humanoid robots"
+                   data-description="<a href='P_DRC.html' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/DRC/icon.jpg" alt="DRC MPC">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Real-Time MPC for Humanoid Robots (DRC)</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=jYh8ZCyS1Ow" class="glightbox"
+                   data-gallery="BSgroup"
+                   data-title="Synthesis of Complex Behaviors with Optimal Control"
+                   data-description="<a href='Projects/Hand/Complex Behaviors(CoSyNe13).pdf' target='_blank'>↗ Project PDF</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/Hand/icon(behaviorSynthesis).jpg" alt="Behavior Synthesis">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Synthesis of Complex Behaviors with Optimal Control</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Platforms & Hardware -->
+    <div class="research-section">
+        <h2 class="section-title">Platforms &amp; Hardware</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=IN7VFquI7ow" class="glightbox"
+                   data-gallery="PlatformsGroup"
+                   data-title="ADROIT Manipulation Platform"
+                   data-description="<a href='P_Hand.html' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/Hand/icon.jpg" alt="ADROIT">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">ADROIT: Anthropomorphic Dexterous Manipulation Platform</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=oiNdePCi_5k" class="glightbox"
+                   data-gallery="PlatformsGroup"
+                   data-title="All the Feels: A dexterous hand with large area sensing"
+                   data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/dmanus.png" alt="D-Manus">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">D-Manus: Dexterous Hand with Large-Area Tactile Sensing</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=vXBEGwbWaIg" class="glightbox"
+                   data-gallery="PlatformsGroup"
+                   data-title="A Low-cost and Modular, 20-DOF Anthropomorphic Robotic Hand: Design, Actuation and Modeling"
+                   data-description="<a href='P_Finger.html' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/Finger/icon(hand).jpg" alt="20-DOF Robotic Hand">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Low-Cost Modular 20-DOF Anthropomorphic Robotic Hand</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=M_q_YH1aB6Q" class="glightbox"
+                   data-gallery="PlatformsGroup"
+                   data-title="Hand Manipulation in Physically Realistic VR"
+                   data-description="<a href='Projects/haptixVR/haptix_humanoids15.pdf' target='_blank'>↗ Project PDF</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/haptixVR/icon.jpg" alt="Haptic VR">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Physically Realistic VR: Hand Manipulation</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=gasR7b6eT7g" class="glightbox"
+                   data-gallery="PlatformsGroup"
+                   data-title="DARPA Robotics Challenge: Real-time MPC for Humanoid Robots"
+                   data-description="<a href='P_DRC.html' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/DRC/icon.jpg" alt="DARPA DRC">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">DARPA Robotics Challenge: Humanoid MPC System</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=5DPrU76FbGk" class="glightbox"
+                   data-gallery="PlatformsGroup"
+                   data-title="Fast &amp; Compliant Pneumatic Actuation System for Tendon-Driven Systems"
+                   data-description="<a href='P_Hand.html' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/Hand/icon_actuation.png" alt="Pneumatic Actuation">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Fast &amp; Compliant Pneumatic Actuation for Tendon-Driven Systems</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Benchmarking -->
+    <div class="research-section">
+        <h2 class="section-title">Benchmarking</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=xuFrdMPEX_w" class="glightbox"
+                   data-gallery="benchGroup"
+                   data-title="RoboHive: A Unified Framework for Robot Learning"
+                   data-description="<a href='https://sites.google.com/view/robohive' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/robohive.png" alt="RoboHive">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">RoboHive: A Unified Framework for Robot Learning</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=a2GWNxvySrc" class="glightbox"
+                   data-gallery="benchGroup"
+                   data-title="MyoChallenge 2022: Musculoskeletal Manipulation Benchmark"
+                   data-description="<a href='https://sites.google.com/view/myosuite/myochallenge/myochallenge-2022' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/myochal22.png" alt="MyoChallenge">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">MyoChallenge 2022: Musculoskeletal Manipulation Benchmark</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=G6C3icxjUtg" class="glightbox"
+                   data-gallery="benchGroup"
+                   data-title="Robotics Benchmarks for Learning (ROBEL)"
+                   data-description="<a href='https://sites.google.com/view/roboticsbenchmarks/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/robel.png" alt="ROBEL">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Robotics Benchmarks for Learning (ROBEL)</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=8Np3eC_PTFo" class="glightbox"
+                   data-gallery="benchGroup"
+                   data-title="Multi-Goal RL: Challenging Robotics Environments and Request for Research"
+                   data-description="<a href='https://blog.openai.com/ingredients-for-robotics-research/' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/ingredients.jpg" alt="Multi-Goal RL Environments">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Multi-Goal RL: Challenging Robotics Environments</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://robot-learning.cs.utah.edu/project/benchmarking_in_hand_manipulation" class="glightbox"
+                   data-gallery="benchGroup" data-type="iframe"
+                   data-title="Benchmarking In-Hand Manipulation"
+                   data-description="<a href='https://robot-learning.cs.utah.edu/project/benchmarking_in_hand_manipulation' target='_blank'>↗ Project webpage</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/icons/benchmarkingInHand.png" alt="Benchmarking In-Hand Manipulation">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Benchmarking In-Hand Manipulation</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Brain-Machine Interface -->
+    <div class="research-section">
+        <h2 class="section-title">Brain-Machine Interface</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=E-1Xm1E1bVk" class="glightbox"
+                   data-gallery="BMIgroup"
+                   data-title="Hand Reconstruction from Motor Cortex Recordings">
+                    <div class="card-thumb">
+                        <img src="Projects/Hddn/handReconstructionFromBrainRecordings.jpg" alt="BMI Hand Reconstruction">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Hand Reconstruction from Motor Cortex Recordings</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=BslJqSBT7Uo" class="glightbox"
+                   data-gallery="BMIgroup"
+                   data-title="Object Repositioning via Gesture Machine Interface">
+                    <div class="card-thumb">
+                        <img src="Projects/GMI/Bottle_Shuffling_Arm_GMI.jpg" alt="GMI">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Object Repositioning via Gesture Machine Interface</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=ctAufW0d-j0" class="glightbox"
+                   data-gallery="BMIgroup"
+                   data-title="Closed-Loop Control with Gesture Machine Interface">
+                    <div class="card-thumb">
+                        <img src="Projects/GMI/WAM_EyeGesture.jpg" alt="Eye Gesture Control">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Closed-Loop Control with Gesture Machine Interface</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Tracking & Calibration -->
+    <div class="research-section">
+        <h2 class="section-title">Tracking &amp; Calibration</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=F7SzQw3RI04" class="glightbox"
+                   data-gallery="TnCgroup"
+                   data-title="Precise Calibration of Robots using Kinematic Extensions"
+                   data-description="<a href='Projects/kinematicExtension/kinematicExtension.pdf' target='_blank'>↗ Project PDF</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/kinematicExtension/icon.jpg" alt="Kinematic Calibration">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">Precise Robot Calibration via Kinematic Extensions</p></div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=lTPeyAJWBSw" class="glightbox"
+                   data-gallery="TnCgroup"
+                   data-title="STAC: Simultaneous Tracking and Calibration"
+                   data-description="<a href='Projects/STAC/STAC.pdf' target='_blank'>↗ Project PDF</a>">
+                    <div class="card-thumb">
+                        <img src="Projects/STAC/icon.jpg" alt="STAC">
+                        <div class="card-play"><div class="card-play-btn">&#9654;</div></div>
+                    </div>
+                    <div class="card-body"><p class="card-title">STAC: Simultaneous Tracking and Calibration</p></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- ===== FOOTER ===== -->
+<div id="footer">
+    <p>
+        <a href="https://twitter.com/vikashplus">Twitter</a> &nbsp;&middot;&nbsp;
+        <a href="https://www.youtube.com/@vikashplus">YouTube</a> &nbsp;&middot;&nbsp;
+        <a href="https://github.com/vikashplus">GitHub</a> &nbsp;&middot;&nbsp;
+        <a href="https://scholar.google.com/citations?user=lS96SqoAAAAJ">Google Scholar</a> &nbsp;&middot;&nbsp;
+        <a href="https://www.linkedin.com/in/vikash-kumar-148671284/">LinkedIn</a>
+    </p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+    GLightbox({
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: true,
+        descPosition: 'bottom'
+    });
+
+    // Size hero to exactly fill the viewport below the header
+    function fitHero() {
+        var logo = document.getElementById('logo');
+        var menu = document.getElementById('menu');
+        var headerH = (logo ? logo.offsetHeight : 0) + (menu ? menu.offsetHeight : 0);
+        var hero = document.querySelector('.hero');
+        if (hero) hero.style.height = (window.innerHeight - headerH) + 'px';
+    }
+    fitHero();
+    window.addEventListener('resize', fitHero);
+
+    // Hero: random autoplay — YouTube (id) and MP4 (mp4) clips with start/end times
+    var heroVideos = [
+        // YouTube — start/end manually tuned
+        { id: 'K440gj1w9Vs', start: 5,  end: 35,  project: 'https://sites.google.com/view/myosuite' },
+        { id: 'qVBRsGD9aIE', start: 5,  end: 35,  project: 'https://sites.google.com/view/myodex' },
+        { id: 'kWSCkXLDDn0', start: 5,  end: 35,  project: 'https://sites.google.com/view/sar-rl' },
+        // { id: 'a2GWNxvySrc', start: 5,  end: 35,  project: 'https://sites.google.com/view/myosuite/myochallenge/myochallenge-2022' },
+        { id: 'vxjvS5jATZ0', start: 5,  end: 35,  project: 'https://sites.google.com/view/dexterous-avail' },
+        { id: 'sKtimHlF7As', start: 5,  end: 35,  project: 'https://sites.google.com/view/mtrf' },
+        { id: 'nlJUOn3O1Ew', start: 52,  end: 71, project: 'https://sites.google.com/view/pddm' },
+        { id: 'biQcr9CAhjI', start: 22,  end: 43,  project: 'https://sites.google.com/view/deeprl-dexterous-manipulation' },
+        { id: 'G6C3icxjUtg', start: 5,  end: 35,  project: 'https://sites.google.com/view/roboticsbenchmarks/' },
+        // { id: 'gasR7b6eT7g', start: 5,  end: 35,  project: 'P_DRC.html' },
+        { id: 'IN7VFquI7ow', start: 5,  end: 35,  project: 'P_Hand.html' },
+        // MP4 — start/end are placeholders, tune manually
+        { mp4: 'https://tonyzhaozh.github.io/aloha/resources/teleop_all.mp4',                              start: 5, end: 35, project: 'https://tonyzhaozh.github.io/aloha/' },
+        { mp4: 'https://taochenshh.github.io/projects/files/visual_dexterity/visual_dexterity_teaser.mp4', start: 5, end: 35, project: 'https://taochenshh.github.io/projects/visual-dexterity' },
+        // { mp4: 'https://penn-pal-lab.github.io/LIV/static/liv_video.mp4',                                  start: 5, end: 35, project: 'https://penn-pal-lab.github.io/LIV/' },
+        { mp4: 'https://genaug.github.io/media/videos/teaser.mp4',                                         start: 5, end: 35, project: 'https://genaug.github.io/' },
+        { mp4: 'https://cacti-framework.github.io/teaser-vid-website.m4v',                                 start: 5, end: 35, project: 'https://cacti-framework.github.io/' },
+        { mp4: 'https://relay-policy-learning.github.io/assets/mp4/successtasks_RPL.mp4',                  start: 5, end: 35, project: 'https://relay-policy-learning.github.io/' },
+        { mp4: 'https://learning-from-play.github.io/assets/mp4/8tasks1920x540.mp4',                       start: 5, end: 35, project: 'https://learning-from-play.github.io/' },
+    ];
+    var heroIndex = Math.floor(Math.random() * heroVideos.length);
+    var heroAutoTimer = null;
+    var FADE_DELAY = 1000;
+
+    function advanceHero(fromIdx) {
+        var next;
+        do { next = Math.floor(Math.random() * heroVideos.length); }
+        while (next === fromIdx && heroVideos.length > 1);
+        heroIndex = next;
+        loadHeroVideo(next);
+    }
+
+    function loadHeroVideo(idx) {
+        var v = heroVideos[idx];
+        var iframe   = document.getElementById('hero-iframe');
+        var videoEl  = document.getElementById('hero-video');
+        var progress = document.getElementById('hero-progress');
+        var clipMs   = (v.end - v.start) * 1000;
+
+        clearTimeout(heroAutoTimer);
+        clearTimeout(iframe._fadeTimer);
+        clearTimeout(videoEl._fadeTimer);
+
+        // Progress bar synced to clip start
+        progress.style.animation = 'none';
+        progress.offsetWidth;
+        progress.style.animation = 'hero-progress ' + (clipMs / 1000) + 's linear forwards';
+
+        var link = document.getElementById('hero-project-link');
+        if (link) link.href = v.project || '#';
+
+        if (v.mp4) {
+            // — MP4 path —
+            iframe.style.opacity = '0';
+            iframe.src = '';
+
+            videoEl.onloadedmetadata = null;
+            videoEl.onended = null;
+            videoEl.style.opacity = '0';
+            videoEl.src = v.mp4;
+            videoEl.load();
+
+            videoEl.onloadedmetadata = function () {
+                videoEl.currentTime = v.start;
+                videoEl.play();
+            };
+            videoEl.onended = function () { advanceHero(idx); };
+
+            videoEl._fadeTimer = setTimeout(function () { videoEl.style.opacity = '1'; }, FADE_DELAY);
+
+        } else {
+            // — YouTube path —
+            videoEl.onloadedmetadata = null;
+            videoEl.onended = null;
+            videoEl.style.opacity = '0';
+            videoEl.pause();
+            videoEl.src = '';
+
+            iframe.style.opacity = '0';
+            iframe.src = 'https://www.youtube.com/embed/' + v.id +
+                '?autoplay=1&mute=1' +
+                '&start=' + v.start + '&end=' + v.end +
+                '&controls=0&disablekb=1&fs=0&rel=0&modestbranding=1&playsinline=1';
+
+            iframe._fadeTimer = setTimeout(function () { iframe.style.opacity = '1'; }, FADE_DELAY);
+        }
+
+        heroAutoTimer = setTimeout(function () { advanceHero(idx); }, clipMs);
+    }
+
+    loadHeroVideo(heroIndex);
+
+    document.getElementById('hero-next-btn').addEventListener('click', function () {
+        advanceHero(heroIndex);
+    });
+</script>
 </body>
 </html>
