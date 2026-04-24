@@ -795,13 +795,13 @@ td h3 {
 
 @media (max-width: 900px) {
   #logo h1         { padding: 14px 20px; font-size: 1.25em; }
-  #menu ul         { flex-wrap: wrap; }
   #menu a          { padding: 11px 14px; font-size: .8em; }
   #page-content    { padding: 20px; }
   #page-content img { max-width: 100%; height: auto; }
   .hero            { height: calc(100vh - 88px); }
-  .hero h1         { font-size: 2em; }
-  .hero-inner      { padding: 0 20px 32px; }
+  .hero h1         { font-size: 2em; margin-bottom: 12px; }
+  .hero-tagline    { font-size: .74em; margin-bottom: 8px; }
+  .hero-inner      { padding: 16px 20px 8px; }
   .achievements    { padding: 0 10px; }
   .news-section        { padding: 22px 20px; }
   .research-statement  { padding: 22px 20px; }
@@ -812,22 +812,25 @@ td h3 {
 
 @media (max-width: 600px) {
   .hero                  { height: calc(100vh - 80px); }
-  .hero h1               { font-size: 1.6em; }
+  .hero h1               { font-size: 1.35em; letter-spacing: -.3px; margin-bottom: 6px; }
+  .hero-tagline          { font-size: .68em; margin-bottom: 5px; }
+  .hero-affil            { display: none; }
   .btn                   { width: max-content; }
-  .hero-inner            { padding: 0 16px 6px; }
+  .hero-inner            { padding: 12px 16px 6px; }
   .project-grid          { grid-template-columns: repeat(2, 1fr); }
   #news                  { width: 100%; min-width: unset; }
   .hero-project-link     { top: 10px; right: 12px; }
-  /* Achievements: 2-per-row on mobile so text isn't clipped */
-  .hero .achievements    { flex-wrap: wrap; padding: 0; }
-  .achievement-item      { flex: 0 0 50%; border-right: none; border-bottom: 1px solid rgba(255,255,255,.06); }
-  .achievement-val       { font-size: 13px; }
-  .achievement-label     { font-size: 9px; white-space: normal; }
+  /* Achievements: single row, scale down, scroll if needed */
+  .hero .achievements    { overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 0; flex-wrap: nowrap; }
+  .achievement-item      { flex: 0 0 auto; padding: 10px 12px; }
+  .achievement-val       { font-size: 10px; }
+  .achievement-label     { font-size: 7px; }
   /* Publication tables: stack thumbnail above text on narrow screens */
   #allTable              { display: block; }
   #allTable tr           { display: flex; flex-direction: column; }
   #allTable td           { display: block; width: 100% !important; }
   #allTable td:first-child { text-align: center; }
   #allTable td img       { max-width: 120px; height: auto; }
-  #menu ul               { flex-wrap: wrap; }
+  #menu                  { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  #menu ul               { min-width: max-content; }
 }
