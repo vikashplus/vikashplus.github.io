@@ -894,28 +894,29 @@
     // Hero: random autoplay — YouTube (id) and MP4 (mp4) clips with start/end times
     var heroVideos = [
         // YouTube — start/end manually tuned
-        { id: 'K440gj1w9Vs', start: 5,  end: 35,  project: 'https://sites.google.com/view/myosuite' },
+        // { id: 'K440gj1w9Vs', start: 5,  end: 35,  project: 'https://sites.google.com/view/myosuite' },
         { id: 'qVBRsGD9aIE', start: 5,  end: 35,  project: 'https://sites.google.com/view/myodex' },
         // { id: 'kWSCkXLDDn0', start: 5,  end: 35,  project: 'https://sites.google.com/view/sar-rl' },
         // { id: 'a2GWNxvySrc', start: 5,  end: 35,  project: 'https://sites.google.com/view/myosuite/myochallenge/myochallenge-2022' },
-        { id: 'vxjvS5jATZ0', start: 5,  end: 35,  project: 'https://sites.google.com/view/dexterous-avail' },
-        { id: 'sKtimHlF7As', start: 5,  end: 35,  project: 'https://sites.google.com/view/mtrf' },
+        // { id: 'vxjvS5jATZ0', start: 5,  end: 35,  project: 'https://sites.google.com/view/dexterous-avail' },
+        { id: 'sKtimHlF7As', start: 58,  end: 64,  project: 'https://sites.google.com/view/mtrf' },
         { id: 'nlJUOn3O1Ew', start: 52,  end: 71, project: 'https://sites.google.com/view/pddm' },
         { id: 'biQcr9CAhjI', start: 22,  end: 43,  project: 'https://sites.google.com/view/deeprl-dexterous-manipulation' },
         { id: 'G6C3icxjUtg', start: 5,  end: 16,  project: 'https://sites.google.com/view/roboticsbenchmarks/' },
         { id: 'oiNdePCi_5k', start: 12,  end: 54,  project: 'https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus' },
         // { id: 'gasR7b6eT7g', start: 5,  end: 35,  project: 'P_DRC.html' },
-        { id: 'IN7VFquI7ow', start: 5,  end: 35,  project: 'P_Hand.html' },
+        { id: 'IN7VFquI7ow', start: 11,  end: 24,  project: 'P_Hand.html' },
         { id: 'MxcmKKvdBhk', start: 270, end: 308, project: 'https://genaug.github.io/' },
-
+        { id: '_nArEh7fUzk', start: 45, end: 54, project: 'https://robopen.github.io/' },
+        { id: 'tUfWqIz5aR4', start: 8, end: 26, project: 'https://robopen.github.io/' },
+        { id: 'tUfWqIz5aR4', start: 40, end: 58, project: 'https://robopen.github.io/' },
         // MP4 — start/end are placeholders, tune manually
         { mp4: 'https://tonyzhaozh.github.io/aloha/resources/teleop_all.mp4',                              start: 5, end: 35, project: 'https://tonyzhaozh.github.io/aloha/' },
         { mp4: 'https://taochenshh.github.io/projects/files/visual_dexterity/visual_dexterity_teaser.mp4', start: 22, end: 32, project: 'https://taochenshh.github.io/projects/visual-dexterity' },
         // { mp4: 'https://penn-pal-lab.github.io/LIV/static/liv_video.mp4',                                  start: 5, end: 35, project: 'https://penn-pal-lab.github.io/LIV/' },
-
-        { mp4: 'https://cacti-framework.github.io/teaser-vid-website.m4v',                                 start: 5, end: 35, project: 'https://cacti-framework.github.io/' },
-        { mp4: 'https://relay-policy-learning.github.io/assets/mp4/successtasks_RPL.mp4',                  start: 5, end: 35, project: 'https://relay-policy-learning.github.io/' },
-        { mp4: 'https://learning-from-play.github.io/assets/mp4/8tasks1920x540.mp4',                       start: 5, end: 35, project: 'https://learning-from-play.github.io/' },
+        // { mp4: 'https://cacti-framework.github.io/teaser-vid-website.m4v',                                 start: 5, end: 35, project: 'https://cacti-framework.github.io/' },
+        // { mp4: 'https://relay-policy-learning.github.io/assets/mp4/successtasks_RPL.mp4',                  start: 5, end: 35, project: 'https://relay-policy-learning.github.io/' },
+        // { mp4: 'https://learning-from-play.github.io/assets/mp4/8tasks1920x540.mp4',                       start: 5, end: 35, project: 'https://learning-from-play.github.io/' },
     ];
     var heroIndex = Math.floor(Math.random() * heroVideos.length);
     var heroAutoTimer = null;
@@ -930,6 +931,7 @@
     }
 
     function loadHeroVideo(idx) {
+        // idx = 10;
         var v = heroVideos[idx];
         var iframe   = document.getElementById('hero-iframe');
         var videoEl  = document.getElementById('hero-video');
