@@ -75,13 +75,38 @@ function change() {
     for (var i = 0; i < rElems.length; i++) {
       rElems[i].style.display = "block";
     }
-  
+
+    var allLabels = document.querySelectorAll(".result h3.rs-label");
+    for (var i = 0; i < allLabels.length; i++) {
+      allLabels[i].style.display = "";
+    }
+
     if (hiddenElems.length <= 0) {
       return;
     }
   
     for (var i = 0; i < hiddenElems.length; i++) {
       hiddenElems[i].style.display = "none";
+    }
+
+    // Hide rs-label headings that have no visible entries beneath them
+    var resultEl = document.querySelector(".result");
+    if (resultEl) {
+      var children = resultEl.children;
+      for (var i = 0; i < children.length; i++) {
+        var child = children[i];
+        if (child.tagName === "H3" && child.classList.contains("rs-label")) {
+          var hasVisible = false;
+          for (var j = i + 1; j < children.length; j++) {
+            if (children[j].tagName === "H3" && children[j].classList.contains("rs-label")) break;
+            if (children[j].tagName === "DIV" && children[j].style.display !== "none") {
+              hasVisible = true;
+              break;
+            }
+          }
+          child.style.display = hasVisible ? "" : "none";
+        }
+      }
     }
   }
   

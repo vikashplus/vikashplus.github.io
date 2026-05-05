@@ -155,7 +155,7 @@
                 <div class="result">
 
                     <!-- 2025 ========================================================================================== -->
-                    <h2>2025</h2>
+                    <h3 class="rs-label">2025</h3>
 
                     <div class="myo">
                         <table id="allTable">
@@ -198,7 +198,7 @@
                     </div>
 
                     <!-- 2024 ========================================================================================== -->
-                    <h2>2024</h2>
+                    <h3 class="rs-label">2024</h3>
 
                     <div class="awards FM universalAgent">
                         <table id="allTable">
@@ -368,7 +368,7 @@
 
 
                     <!-- 2023 ========================================================================================== -->
-                    <h2>2023</h2>
+                    <h3 class="rs-label">2023</h3>
 
                     <div class="FM dexman myo universalAgent">
                         <table id="allTable">
@@ -636,7 +636,7 @@
                         </table>
                     </div>
 
-                    <h2>2022</h2>
+                    <h3 class="rs-label">2022</h3>
 
                     <div class="universalAgent algo">
                         <table id="allTable">
@@ -803,14 +803,7 @@
                         </table>
                     </div>
 
-                    <table>
-                        <col width="156">
-                        <tbody>
-                            <tr valign="top">
-                                <th colspan="2">Benchmarks</th>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h3 class="rs-label">Benchmarks</h3>
                     <div class="benchmark myo">
                         <table id="allTable">
                             <col width="156">
@@ -928,14 +921,7 @@
                             </tr>
                         </table>
                     </div>
-                    <table>
-                        <col width="156">
-                        <tbody>
-                            <tr valign="top">
-                                <th colspan="2">Behavior Synthesis</th>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h3 class="rs-label">Behavior Synthesis</h3>
                     <div class="algo dexman">
                         <table id="allTable">
                             <col width="156">
@@ -1380,14 +1366,7 @@
                             </tr>
                         </table>
                     </div>
-                    <table>
-                        <col width="156">
-                        <tbody>
-                            <tr valign="top">
-                                <th colspan="2"> Virtual reality </th>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h3 class="rs-label">Virtual reality</h3>
                     <div class="tag6">
                         <table id="allTable">
                             <col width="156">
@@ -1409,14 +1388,7 @@
                             </tr>
                         </table>
                     </div>
-                    <table>
-                        <col width="156">
-                        <tbody>
-                            <tr valign="top">
-                                <th colspan="2"> Tracking & calibration </th>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h3 class="rs-label">Tracking &amp; calibration</h3>
                     <div class="hardware">
                         <table id="allTable">
                             <col width="156">
@@ -1457,14 +1429,7 @@
                             </tr>
                         </table>
                     </div>
-                    <table>
-                        <col width="156">
-                        <tbody>
-                            <tr valign="top">
-                                <th colspan="2"> Robot design </th>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h3 class="rs-label">Robot design</h3>
                     <div class="hardware">
                         <table id="allTable">
                             <col width="156">
@@ -1560,14 +1525,7 @@
                             </tr>
                         </table>
                     </div>
-                    <table>
-                        <col width="156">
-                        <tbody>
-                            <tr valign="top">
-                                <th colspan="2"> Manuscripts </th>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h3 class="rs-label">Manuscripts</h3>
                     <div class="hardware">
                         <table id="allTable">
                             <col width="156">
@@ -1643,23 +1601,9 @@
 
 <script>
     function uncheckAll() {
-        let inputs = document.querySelectorAll('.check2');
-        for (let i = 0; i < inputs.length; i++) {
-            inputs[i].checked = false;
-        }
-        let all = document.querySelectorAll('.result');
-        all.style.display = "block";
+        document.querySelectorAll('.check2').forEach(function(cb) { cb.checked = false; });
+        change();
     }
-    const resultDiv = document.querySelector('.result');
-    const toggleButton = document.getElementById('showAllButton');
-    const contentDivs = resultDiv.querySelectorAll('.awards, .FM, .universalAgent, .myo, .algo, .hardware, .benchmark, .dexman');
-
-    toggleButton.addEventListener('click', () => {
-        contentDivs.forEach(div => {
-            div.style.display = 'block';
-        });
-    });
-
 </script>
 
 </html>

@@ -825,12 +825,11 @@ td h3 {
   .achievement-item      { flex: 0 0 auto; padding: 10px 12px; }
   .achievement-val       { font-size: 10px; }
   .achievement-label     { font-size: 7px; }
-  /* Publication tables: stack thumbnail above text on narrow screens */
-  #allTable              { display: block; }
-  #allTable tr           { display: flex; flex-direction: column; }
-  #allTable td           { display: block; width: 100% !important; }
-  #allTable td:first-child { text-align: center; }
-  #allTable td img       { max-width: 120px; height: auto; }
+  /* Publication tables: keep side-by-side but scale thumbnail column down */
+  .result table          { width: 100%; }
+  .result table col      { width: 80px; }
+  .result table td:first-child { width: 80px; }
+  .result table td img   { max-width: 70px; height: auto; }
   #menu                  { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   #menu ul               { min-width: max-content; }
 }
